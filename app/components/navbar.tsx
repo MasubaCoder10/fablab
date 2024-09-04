@@ -12,6 +12,7 @@ const navigation = [
     { name: 'Accueil', href: '#home' },
     { name: 'Programmes', href: '#programmes' },
     { name: 'Blog', href: '#blog' },
+    { name: 'A propos', href: '#aboutus' },
   ]
 
 const NavBar = () => {
