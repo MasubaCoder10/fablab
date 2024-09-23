@@ -1,8 +1,42 @@
 {
-    "navBar": {
-      "home": "Accueil",
-      "programmes": "Programmes",
-      "blog": "Blog",
-      "aboutus": "A propos"
-    }
+  "navBar": {
+    "home": "Accueil",
+    "programmes": "Programmes",
+    "blog": "Blog",
+    "aboutus": "A propos"
+  },
+  "hero": {
+    "title": "Façonner l'avenir de l'Afrique, un leader à la fois",
+    "description": "Révélez votre potentiel. Rejoignez nos programmes de transformation pour maîtriser des compétences essentielles, déclencher des changements civiques et diriger avec détermination au Niger et au-delà.",
+    "btnApply": "Postulez dès aujourd'hui",
+    "linkProgram": "Découvrez nos programmes"
+  },
+  "aboutUs": {
+    "about": "À propos de Next Leadership",
+    "title": "Nous formons, équipons et connectons les jeunes leaders pour qu'ils excellent !",
+    "description": "Avec une population jeune et croissante, le Niger fait face à des défis uniques en matière de développement. Chez Next Leadership, nous donnons aux jeunes les outils nécessaires pour diriger, innover et faire la différence. Depuis 2016, nous avons formé des milliers de personnes à travers l'Afrique avec des compétences telles que la prise de parole en public, le leadership et les compétences du 21ème siècle.",
+    "btnReadMore": "Lisez notre histoire complète"
+  },
+  "program": {
+    "title": "Découvrez nos programmes",
+    "description": "Explorez nos divers programmes conçus pour autonomiser les jeunes leaders dans différents domaines. Choisissez celui qui correspond le mieux à vos aspirations et objectifs de carrière.",
+    "blogNameNext": "Programme Next Leadership",
+    "blogDesNext": "Une expérience de formation rigoureuse pour les jeunes professionnels et diplômés (âgés de 20 à 30 ans) visant à réussir dans des carrières compétitives. Maîtrisez les compétences humaines et conceptuelles, développez des capacités administratives et découvrez les bases de l'entrepreneuriat.",
+    "blogPeripdNext": "Automne, Printemps",
+    "blogBtnLearnMoreNext": "Programme Next Leadership",
+    "blogNameYouth": "Programme de Leadership pour Jeunes",
+    "blogDesYouth": "Destiné aux élèves du lycée (âgés de 15 à 20 ans), ce programme se concentre sur l'engagement civique, l'excellence académique, les compétences en communication, le leadership et les compétences entrepreneuriales essentielles.",
+    "blogPeripdYouth": "Été",
+    "blogBtnLearnMoreYouth": "Programme de Leadership pour Jeunes"
+  },
+  "workWithUs": {
+    "title": "À propos de nous",
+    "linkTeam": "Vous voulez rejoindre notre équipe ?",
+    "linkValues": "Nos valeurs",
+    "linkMeet": "Rencontrez notre équipe dirigeante",
+    "linkProgram": "Programmes organisés",
+    "linkApplicants": "Candidats annuels",
+    "linkAccepted": "Acceptés",
+    "linkConferences": "Conférences"
   }
+}
