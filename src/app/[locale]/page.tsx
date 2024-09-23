@@ -1,5 +1,8 @@
 import {Link} from '@/src/i18n/routing';
 import HeroSection from './components/hero';
+import AboutUsSection from './components/AboutUs';
+import ProgramsOverviewSection from './components/ProgramOverview';
+import WorkWithUsSection from './components/workwithus';
 
 
 export default function Home() {
@@ -7,6 +10,9 @@ export default function Home() {
   return (
     <main>
       <HeroSection />
+      <AboutUsSection />
+      <ProgramsOverviewSection />
+      <WorkWithUsSection />
       {/* <Navbar />
       <HeroSection />
       <AboutUsSection />

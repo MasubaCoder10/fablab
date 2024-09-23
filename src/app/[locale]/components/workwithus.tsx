@@ -15,7 +15,7 @@ const stats = [
   { name: 'Conferences', value: '2' },
 ];
 
-const AboutUsSection: React.FC = () => {
+const WorkWithUsSection: React.FC = () => {
   return (
     <div className="relative isolate overflow-hidden bg-[#001A40] py-24 sm:py-32">
       {/* Gradient Overlays */}
@@ -79,4 +79,4 @@ const AboutUsSection: React.FC = () => {
   );
 };
 
-export default AboutUsSection;
+export default WorkWithUsSection;
