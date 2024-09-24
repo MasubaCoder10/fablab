@@ -77,7 +77,7 @@ const ProgramsOverviewSection: React.FC = () => {
               <div className="p-6 h-full rounded-lg bg-[#001A40]">
                 <h3 className="text-2xl font-din font-bold text-[#FFC72C]">{program.name}</h3>
                 <p className="mt-4 text-lg font-inter text-white">{program.description}</p>
-                <p className="mt-2 text-sm text-gray-300">Typical Period: {program.period}</p>
+                <p className="mt-2 text-sm text-gray-300">{program.period}</p>
                 <a
                   href="#"
                   className="mt-6 inline-block bg-[#FFC72C] text-[#001A40] font-semibold py-2 px-4 rounded-md shadow-md hover:bg-[#e5b71f] transition-colors"

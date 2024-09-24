@@ -5,6 +5,7 @@ const WorkWithUsSection: React.FC = () => {
   const t = useTranslations('workWithUs'); // Use 'workWithUs' to access the dictionary
 
   const links = [
+    { name: t('linkAbout'), href: '#' },
     { name: t('linkTeam'), href: '#' },
     { name: t('linkValues'), href: '#' },
     { name: t('linkMeet'), href: '#' },
@@ -53,7 +54,7 @@ const WorkWithUsSection: React.FC = () => {
             {t('title')}
           </h2>
           <p className="mt-6 text-lg font-inter leading-8 text-white">
-            We empower young leaders with the skills to lead, innovate, and make a difference. Join us to shape the future.
+          {t('description')}
           </p>
         </div>
 

@@ -10,9 +10,10 @@ export default function Home() {
   return (
     <main>
       <HeroSection />
+      {/* <HeroSection />
       <AboutUsSection />
       <ProgramsOverviewSection />
-      <WorkWithUsSection />
+      <WorkWithUsSection /> */}
       {/* <Navbar />
       <HeroSection />
       <AboutUsSection />
