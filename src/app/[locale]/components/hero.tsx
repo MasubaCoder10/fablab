@@ -9,7 +9,7 @@ const HeroSection: React.FC = () => {
 
   return (
     <section
-      className="relative bg-cover bg-center h-screen"
+      className='relative bg-cover  bg-center h-screen bg-heroImage '
       style={{
         backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.05), #001A40) `,
       }}
