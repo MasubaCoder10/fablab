@@ -40,6 +40,17 @@
       "linkApplicants": "Yearly Applicants",
       "linkAccepted": "Accepted",
       "linkConferences": "Conferences"
+    },
+    "footer": {
+      "slogan": "Empowering the next generation of leaders for a brighter future.",
+      "contactLink": "Contact Us",
+      "programLink": "Programs",
+      "nextleadershipLink": "Next Leadership Program",
+      "youthleadershipLink": "Youth Leadership Program",
+      "blog": "blog",
+      "latestBlog": "Our Latest Blog Posts",
+      "allBlog": "All of Our Blogs",
+      "aboutUs": "About us"
     }
     
   }

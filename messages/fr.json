@@ -40,5 +40,19 @@
     "linkApplicants": "Candidats annuels",
     "linkAccepted": "Acceptés",
     "linkConferences": "Conférences"
-  }
+  },
+ "footer": {
+  "slogan": "Autonomiser la prochaine génération de leaders pour un avenir meilleur.",
+  "contactLink": "Contactez-nous",
+  "programLink": "Programmes",
+  "nextleadershipLink": "Programme de Next Leadership",
+  "youthleadershipLink": "Programme de Leadership Jeunesse",
+  "blog": "blog",
+  "latestBlog": "Nos Derniers Blog",
+  "allBlog": "Tous Nos Blogs",
+  "aboutUs": "À propos de nous"
 }
+
+}
+
+

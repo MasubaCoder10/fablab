@@ -3,6 +3,7 @@ import HeroSection from './components/hero';
 import AboutUsSection from './components/AboutUs';
 import ProgramsOverviewSection from './components/ProgramOverview';
 import WorkWithUsSection from './components/workwithus';
+import BackToTop from './components/BackToTop';
 
 
 export default function Home() {
@@ -10,10 +11,10 @@ export default function Home() {
   return (
     <main>
       
-       <HeroSection />
+        <HeroSection />
       <AboutUsSection />
       <ProgramsOverviewSection />
-      <WorkWithUsSection /> 
+      <WorkWithUsSection />  
       {/* <Navbar />
       <HeroSection />
       <AboutUsSection />
