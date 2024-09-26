@@ -63,10 +63,11 @@ const Footer: React.FC = () => {
               <p>
               <Link href={`mailto:${parametre.email}`} className="py-4 ">
                 {parametre.email}
-
+                
               </Link>
+              </p>
               <p className="py-2">{parametre.number}</p>
-            </p>
+            
 
 
 
@@ -137,10 +138,10 @@ const Footer: React.FC = () => {
                   </div>
                 </Link>
               </div>
-             <div className='flex justify-center pt-10'>
+             <div className='hidden md:flex justify-center pt-10'>
              <button
                 onClick={scrollToTop}
-                className="mt-4 p-2 bg-[#0A285F] rounded-md flex items-center gap-5 border border-[#BFD3E3] text-white hover:bg-blue-600 transition duration-300"
+                className=" mt-4 p-2 bg-[#0A285F] rounded-md flex items-center gap-5 border border-[#BFD3E3] text-white hover:bg-blue-600 transition duration-300"
               >
                 Back to top <FaArrowUp className="text-sm" />
               </button>

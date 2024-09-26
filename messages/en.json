@@ -51,6 +51,12 @@
       "latestBlog": "Our Latest Blog Posts",
       "allBlog": "All of Our Blogs",
       "aboutUs": "About us"
+    },
+    "Hero2":{
+      "title": "Empowering Future Leaders",
+      "description": "Join our Next Leadership and Youth Leadership Programs to shape the leaders of tomorrow.",
+      "learnMore": "Learn More"
     }
+    
     
   }
