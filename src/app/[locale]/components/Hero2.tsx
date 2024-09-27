@@ -21,11 +21,7 @@ const HeroSection: React.FC = () => {
         <p className="text-lg md:text-2xl mb-8">
           {t('description')}
         </p>
-        <div className="mt-6">
-          <button className="px-6 py-3 bg-[#0A285F] text-white font-semibold rounded-md hover:bg-blue-600 transition duration-300">
-            {t('learnMore')}
-          </button>
-        </div>
+        
       </div>
     </section>
   );
