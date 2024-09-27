@@ -3,7 +3,8 @@
 import Image from "next/image";
 import React from "react";
 import { useTranslations } from 'next-intl';
-
+import seniorImage from '../../../assets/images/senior.jpg'
+import juniorImage from '../../../assets/images/junior.jpg'
 const ProgramsOverviewSection: React.FC = () => {
   const t = useTranslations('program');
 
@@ -12,13 +13,13 @@ const ProgramsOverviewSection: React.FC = () => {
       name: t('blogNameNext'),
       description: t('blogDesNext'),
       period: t('blogPeripdNext'),
-      imageUrl: '/Senior.jpg',
+      imageUrl: seniorImage,
     },
     {
       name: t('blogNameYouth'),
       description: t('blogDesYouth'),
       period: t('blogPeripdYouth'),
-      imageUrl: '/Junior.jpg',
+      imageUrl: juniorImage,
     },
   ];
 

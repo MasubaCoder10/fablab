@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from "react";
-import heroImage from '../../../assets/images/Hero.jpg';
+import heroImage from '../../../assets/images/hero.jpg';
 import { useTranslations } from 'next-intl'; 
 
 
@@ -9,9 +9,9 @@ const HeroSection: React.FC = () => {
 
   return (
     <section
-      className='relative bg-cover  bg-center h-screen bg-heroImage '
+      className='relative bg-cover  bg-center h-screen  '
       style={{
-        backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.05), #001A40) `,
+        backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.05), #001A40), url(${heroImage.src})`,
       }}
     >
       

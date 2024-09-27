@@ -1,7 +1,7 @@
 // components/WhoWeAre.tsx
 'use client';
 import Image from 'next/image';
-
+import whoWeAre from '../../../assets/images/whoWeAre1.jpg'
 const historyPoints = [
   {
     year: '2018',
@@ -45,7 +45,7 @@ const WhoWeAre = () => {
         <div className="md:flex md:justify-between items-center gap-8 mb-16">
           
           <div className="md:w-1/2">
-            <h3 className="text-2xl font-bold mb-4">Our Purpose & Mission</h3>
+            <h3 className="text-2xl font-bold mb-4">Our Purpose</h3>
             <p className="text-white/80 mb-6">
             We are a Niger-based organization with a vision to empower the next generation of leaders across Africa. Our programs focus on leadership development, providing young people with the tools, mentorship, and opportunities they need to make a meaningful impact in their communities and beyond.
             </p>
@@ -57,11 +57,12 @@ const WhoWeAre = () => {
          
           <div className="md:w-1/2 mt-8 md:mt-0">
             <Image
-              src="/images/leadership-team.jpg"
+              src={whoWeAre}
               alt="Leadership Team"
               width={600}
               height={400}
-              className="rounded-lg shadow-lg"
+              className="rounded-lg shadow-lg object-cover"
+              layout="responsive"
             />
           </div>
         </div>
