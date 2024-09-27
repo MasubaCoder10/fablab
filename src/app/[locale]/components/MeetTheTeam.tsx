@@ -2,54 +2,9 @@
 import Image from 'next/image';
 import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
+import teamMembers from '../data/teamMembers'
 
-// Define the team member type
-type TeamMember = {
-  id: number;
-  name: string;
-  position: string;
-  bio: string;
-  image: string;
-};
 
-// Team members data
-const teamMembers: TeamMember[] = [
-  {
-    id: 1,
-    name: 'Jane Doe',
-    position: 'Program Director',
-    bio: 'Experienced leader in youth empowerment programs, with a background in community building.',
-    image: '/images/jane.jpg',
-  },
-  {
-    id: 2,
-    name: 'John Smith',
-    position: 'Mentor',
-    bio: 'Leadership coach with over 15 years of experience in mentoring the next generation of leaders.',
-    image: '/images/john.jpg',
-  },
-  {
-    id: 3,
-    name: 'Alice Johnson',
-    position: 'Founder',
-    bio: 'Passionate advocate for education and leadership development. Co-founded the Next Leadership program.',
-    image: '/images/alice.jpg',
-  },
-  {
-    id: 4,
-    name: 'Michael Brown',
-    position: 'Coordinator',
-    bio: 'Experienced coordinator of leadership events and community activities.',
-    image: '/images/michael.jpg',
-  },
-  {
-    id: 5,
-    name: 'Emily Davis',
-    position: 'Volunteer',
-    bio: 'Dedicated volunteer passionate about education and youth programs.',
-    image: '/images/emily.jpg',
-  },
-];
 
 const MeetTheTeam: React.FC = () => {
   const [visibleTeamCount, setVisibleTeamCount] = useState(3);
