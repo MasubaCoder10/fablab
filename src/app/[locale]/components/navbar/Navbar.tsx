@@ -9,21 +9,22 @@ import { usePathname } from 'next/navigation';
 import { FaChevronDown } from 'react-icons/fa';
 import enFlag from './flags/en.png';
 import frFlag from './flags/fr.png';
-interface props {
+
+interface Props {
   local: string;
 }
 
-
-const NavBar: React.FC<props> = ({ local }) => {
+const NavBar: React.FC<Props> = ({ local }) => {
   const t = useTranslations('navBar');
   const pathname = usePathname();
-
+console.log('path', pathname);
   const navigation = [
-    { name: t('home'), href: '#home' },
-    { name: t('programmes'), href: '#programmes' },
-    { name: t('blog'), href: '#blog' },
-    { name: t('aboutus'), href: '#aboutus' },
+    { name: t('home'), href: '' },
+    { name: t('programmes'), href: '/programs' },
+    { name: t('blog'), href: '/blog' },
+    { name: t('aboutus'), href: '/about' },
   ];
+
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [selectedLang, setSelectedLang] = useState(local);
   const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -33,16 +34,13 @@ const NavBar: React.FC<props> = ({ local }) => {
   }, [local]);
 
   const handleLanguageChange = (newLang: string) => {
-
     setSelectedLang(newLang);
     setDropdownOpen(false);
 
-    // Run client-side routing logic
     if (typeof window !== 'undefined') {
       const newPath = pathname.replace(`/${local}`, `/${newLang}`);
       window.location.href = newPath;
     }
-
   };
 
   const getFlagSrc = (lang: string): StaticImageData => {
@@ -62,7 +60,6 @@ const NavBar: React.FC<props> = ({ local }) => {
         <div className="flex lg:flex">
           <a href="#home" className="-m-1.5 p-1.5 flex items-center gap-2">
             <span className="sr-only">Next Leadership</span>
-            {/* <Image src="/logo.svg" alt="logo" className="h-10 w-auto" width={100} height={100} /> */}
             <span className="text-2xl font-bold text-indigo-600">Next Leadership</span>
           </a>
           <div className="md:hidden flex items-center sm:ml-20">
@@ -102,13 +99,17 @@ const NavBar: React.FC<props> = ({ local }) => {
             <a
               key={item.name}
               href={"/" + local + item.href}
-              className="relative text-sm font-semibold leading-6 text-gray-900 hover:text-indigo-600 transition-colors duration-300 ease-in-out h-full flex items-center after:content-[''] after:absolute after:left-0 after:right-0 after:bottom-[-23px] after:h-[6px] after:bg-indigo-600 after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100 after:origin-left"
+              className={`relative text-sm font-semibold leading-6 text-gray-900 hover:text-indigo-600 transition-colors duration-300 ease-in-out h-full flex items-center after:content-[''] after:absolute after:left-0 after:right-0 after:bottom-[-23px] after:h-[6px] after:bg-indigo-600 after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100 after:origin-left
+                ${pathname=== "/" + local + item.href ? 'text-indigo-600 after:scale-x-100' : ''}
+              `}
             >
+
+              
+              
               {item.name}
             </a>
           ))}
         </div>
-
 
         <div className="hidden relative md:flex items-center">
           <button
@@ -136,7 +137,6 @@ const NavBar: React.FC<props> = ({ local }) => {
         </div>
       </nav>
 
-
       <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} className="lg:hidden">
         <div className="fixed inset-0 z-50 bg-black bg-opacity-50" />
         <DialogPanel className="fixed inset-0 z-50 flex items-center justify-center px-4">
@@ -144,7 +144,6 @@ const NavBar: React.FC<props> = ({ local }) => {
             <div className="flex items-center justify-between">
               <a href="#home" className="-m-1.5 p-1.5" onClick={() => setMobileMenuOpen(false)}>
                 <span className="sr-only">Next</span>
-                {/* <Image src="/logo.svg" alt="logo" className="h-10 w-auto" width={100} height={100} /> */}
               </a>
               <button
                 type="button"
@@ -163,29 +162,15 @@ const NavBar: React.FC<props> = ({ local }) => {
                     <div key={item.name} className="relative">
                       <a
                         href={item.href}
-                        className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                        onClick={() => setMobileMenuOpen(false)}
+                        className={`-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50
+                        ${pathname.includes(item.href) ? 'text-indigo-600' : ''}
+                        `}
                       >
                         {item.name}
                       </a>
-                      <span className="absolute bottom-0 left-0 w-full h-[2px] bg-indigo-100 transition-transform duration-300 ease-in-out scale-x-100 origin-left"></span>
                     </div>
                   ))}
                 </div>
-
-                <div className="py-6">
-                  <a
-                    href="/sign-in"
-                    className="relative block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 hover:text-indigo-600 transition-all duration-300 ease-in-out"
-                    onClick={() => setMobileMenuOpen(false)}
-                  >
-                    Log in
-                    <span
-                      className="absolute bottom-0 left-0 w-full h-[2px] bg-indigo-600 scale-x-0 transition-transform duration-300 ease-in-out hover:scale-x-100 origin-left"
-                    ></span>
-                  </a>
-                </div>
-
               </div>
             </div>
           </div>
