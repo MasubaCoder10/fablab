@@ -20,9 +20,9 @@ const NavBar: React.FC<Props> = ({ local }) => {
 console.log('path', pathname);
   const navigation = [
     { name: t('home'), href: '' },
-    { name: t('programmes'), href: '/programs' },
-    { name: t('blog'), href: '/blog' },
     { name: t('aboutus'), href: '/about' },
+    { name: t('blog'), href: '/blog' },
+    { name: t('contac'), href: '/programs' },
   ];
 
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -59,8 +59,8 @@ console.log('path', pathname);
       <nav aria-label="Global" className="flex items-center justify-around p-6 lg:px-8 fixed top-0 w-full bg-white bg-opacity-90 h-[80px]">
         <div className="flex lg:flex">
           <a href="#home" className="-m-1.5 p-1.5 flex items-center gap-2">
-            <span className="sr-only">Next Leadership</span>
-            <span className="text-2xl font-bold text-indigo-600">Next Leadership</span>
+            <span className="sr-only">FabLab</span>
+            <span className="text-2xl font-bold text-indigo-600">FabLab</span>
           </a>
           <div className="md:hidden flex items-center sm:ml-20">
             <button

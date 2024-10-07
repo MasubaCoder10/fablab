@@ -1,15 +1,15 @@
 {
     "navBar": {
       "home": "Home",
-      "programmes": "Programs",
+      "contac": "Contact us",
       "blog": "Blog",
       "aboutus": "About us"
     },
     "hero": {
-      "title": "Shaping Africa’s Future, One Leader at a Time",
-      "description": "Step into your potential. Join our transformative programs to master essential skills, ignite civic change, and lead with purpose in Niger and beyond.",
-      "btnApply": "Apply Today",
-      "linkProgram": "Explore Our Programs"
+      "title": "Welcome to FabLab AI Research",
+      "description": "Advancing AI in Local Languages and 3D Printing in Agriculture",
+      "btnApply": "Join Us",
+      "linkProgram": "Explore Our Fab Lab"
     },
     "aboutUs": {
       "about": "About Next Leadership",

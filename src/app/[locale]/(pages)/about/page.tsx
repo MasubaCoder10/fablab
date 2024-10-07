@@ -1,4 +1,3 @@
-import {Link} from '@/src/i18n/routing';
 import HeroSection from '../../components/Hero2';
 import MeetTheTeam from '../../components/MeetTheTeam';
 import Partnership from '../../components/Partner';

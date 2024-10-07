@@ -12,9 +12,9 @@ export default function Home() {
     <main>
       
         <HeroSection />
-      <AboutUsSection />
+      {/* <AboutUsSection />
       <ProgramsOverviewSection />
-      <WorkWithUsSection />  
+      <WorkWithUsSection />   */}
       {/* <Navbar />
       <HeroSection />
       <AboutUsSection />

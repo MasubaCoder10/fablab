@@ -40,16 +40,16 @@ const WhoWeAre = () => {
       </div>
 
     
-      <div className="container mx-auto px-4 md:px-8">
+      <div className="container mx-auto pl-4 md:pl-8 bg-gray-50">
       
-        <div className="md:flex md:justify-between items-center gap-8 mb-16">
+        <div className="md:flex md:justify-between items-center mb-16">
           
           <div className="md:w-1/2">
-            <h3 className="text-2xl font-bold mb-4">Our Purpose</h3>
-            <p className="text-white/80 mb-6">
+            <h3 className="text-2xl font-bold mb-4 text-[#0A285F]">Our Purpose</h3>
+            <p className=" mb-6 text-[#0A285F]">
             We are a Niger-based organization with a vision to empower the next generation of leaders across Africa. Our programs focus on leadership development, providing young people with the tools, mentorship, and opportunities they need to make a meaningful impact in their communities and beyond.
             </p>
-            <p className="text-white/80">
+            <p className=" text-[#0A285F]">
             What sets us apart is our commitment to creating a unique, immersive learning environment tailored to the challenges and opportunities of Africa. Our leadership programs go beyond theoretical knowledge, emphasizing real-world application, personal growth, and the development of skills that empower young leaders to drive meaningful change across the continent.
             </p>
           </div>
@@ -61,14 +61,17 @@ const WhoWeAre = () => {
               alt="Leadership Team"
               width={600}
               height={400}
-              className="rounded-lg shadow-lg object-cover"
+              className=" shadow-lg object-cover"
               layout="responsive"
             />
           </div>
         </div>
 
         
-        <div>
+        
+      </div>
+      <div className='container mx-auto px-4 md:px-8'>
+      <div>
           <h3 className="text-2xl font-bold mb-8 text-center text-[#FFC72C]">Our History</h3>
           <div className="relative">
             <div className="border-l-2 border-[#FFC72C]">
