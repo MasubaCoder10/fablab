@@ -5,6 +5,7 @@
 // import WorkWithUsSection from './components/workwithus';
 // import BackToTop from './components/BackToTop';
 
+import CurrentProjects from "./components/CurrentProjects";
 import HeroSlider from "./components/hero/Hero";
 
 
@@ -26,12 +27,33 @@ const slides = [
   },
  
 ];
+
+
+
 export default function Home() {
-  
+  const ongoingProjects = [
+    {
+      title: 'Project 1',
+      description: 'Description for Project 1',
+      imageUrl: 'https://media.istockphoto.com/id/1487507969/photo/young-african-man-examining-a-3d-printed-part-at-creative-lab.jpg?s=612x612&w=0&k=20&c=VZTodlsKSj5CQJ0hcFcyXElGxOU9FgcEjkZwtOgSCMw=',
+    },
+    {
+      title: 'Project 1',
+      description: 'Description for Project 1',
+      imageUrl: 'https://media.istockphoto.com/id/1487507969/photo/young-african-man-examining-a-3d-printed-part-at-creative-lab.jpg?s=612x612&w=0&k=20&c=VZTodlsKSj5CQJ0hcFcyXElGxOU9FgcEjkZwtOgSCMw=',
+    },
+    {
+      title: 'Project 1',
+      description: 'Description for Project 1',
+      imageUrl: 'https://media.istockphoto.com/id/1487507969/photo/young-african-man-examining-a-3d-printed-part-at-creative-lab.jpg?s=612x612&w=0&k=20&c=VZTodlsKSj5CQJ0hcFcyXElGxOU9FgcEjkZwtOgSCMw=',
+    },
+   
+  ];
   return (
     <main>
       <div>
       <HeroSlider slides={slides} />
+      <CurrentProjects projects={ongoingProjects} />
     </div>
         {/* <HeroSection /> */}
       {/* <AboutUsSection />

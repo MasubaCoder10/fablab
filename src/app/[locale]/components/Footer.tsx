@@ -38,7 +38,7 @@ const Footer: React.FC = () => {
 
 
   return (
-    <footer className="bg-[#001A40] text-white">
+    <footer className="bg-[#084029] text-white">
       <div className="container mx-auto py-8 px-4">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-8 justify-items-center">
           {/* Column 1 */}
@@ -115,25 +115,25 @@ const Footer: React.FC = () => {
               </li>
               <div className="flex space-x-4 mt-2 justify-center md:justify-start">
                 <Link href={`${parametre.linkFacebook}`} target="_blank" rel="noopener noreferrer">
-                  <div className="bg-blue-600 rounded-full p-3 hover:bg-white transition duration-300 group">
+                  <div className="bg-[#FF6F00] rounded-full p-3 hover:bg-white transition duration-300 group">
                     <FaFacebook className="text-white group-hover:text-[#001A40] transition duration-300" />
                   </div>
                 </Link>
 
                 <Link href={`${parametre.linkFacebook}`} target="_blank" rel="noopener noreferrer">
-                  <div className="bg-blue-600 rounded-full p-3 hover:bg-white transition duration-300 group">
+                  <div className="bg-[#FF6F00] rounded-full p-3 hover:bg-white transition duration-300 group">
                     <FaLinkedin className="text-white group-hover:text-[#001A40] transition duration-300" />
                   </div>
                 </Link>
 
                 <Link href={`${parametre.linkFacebook}`} target="_blank" rel="noopener noreferrer">
-                  <div className="bg-blue-600 rounded-full p-3 hover:bg-white transition duration-300 group">
+                  <div className="bg-[#FF6F00] rounded-full p-3 hover:bg-white transition duration-300 group">
                     <FaInstagram className="text-white group-hover:text-[#001A40] transition duration-300" />
                   </div>
                 </Link>
 
                 <Link href={`${parametre.linkFacebook}`} target="_blank" rel="noopener noreferrer">
-                  <div className="bg-blue-600 rounded-full p-3 hover:bg-white transition duration-300 group">
+                  <div className="bg-[#FF6F00] rounded-full p-3 hover:bg-white transition duration-300 group">
                     <FaTwitter className="text-white group-hover:text-[#001A40] transition duration-300" />
                   </div>
                 </Link>
@@ -141,7 +141,7 @@ const Footer: React.FC = () => {
              <div className='hidden md:flex justify-center pt-10'>
              <button
                 onClick={scrollToTop}
-                className=" mt-4 p-2 bg-[#0A285F] rounded-md flex items-center gap-5 border border-[#BFD3E3] text-white hover:bg-blue-600 transition duration-300"
+                className=" mt-4 p-2 bg-[#064f32] rounded-md flex items-center gap-5 border border-[#BFD3E3] text-white hover:bg-[#064f32] transition duration-300"
               >
                 Back to top <FaArrowUp className="text-sm" />
               </button>
@@ -154,7 +154,7 @@ const Footer: React.FC = () => {
       </div>
       <hr className="w-full" />
       <div className="text-center py-5">
-        <p>&copy; 2024 NextLeaderShip. All rights reserved.</p>
+        <p>&copy; 2024 NILAB. All rights reserved.</p>
       </div>
     </footer>
   );
