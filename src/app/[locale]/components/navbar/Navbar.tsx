@@ -19,8 +19,9 @@ const NavBar: React.FC<Props> = ({ local }) => {
   const pathname = usePathname();
 console.log('path', pathname);
   const navigation = [
-    { name: t('home'), href: '' },
+    { name: t('research'), href: '' },
     { name: t('aboutus'), href: '/about' },
+    
     { name: t('blog'), href: '/blog' },
     { name: t('contac'), href: '/programs' },
   ];
@@ -60,7 +61,7 @@ console.log('path', pathname);
         <div className="flex lg:flex">
           <a href="#home" className="-m-1.5 p-1.5 flex items-center gap-2">
             <span className="sr-only">FabLab</span>
-            <span className="text-2xl font-bold text-indigo-600">FabLab</span>
+            <span className="text-2xl font-bold text-[#0C6640]">FabLab</span>
           </a>
           <div className="md:hidden flex items-center sm:ml-20">
             <button
@@ -99,8 +100,8 @@ console.log('path', pathname);
             <a
               key={item.name}
               href={"/" + local + item.href}
-              className={`relative text-sm font-semibold leading-6 text-gray-900 hover:text-indigo-600 transition-colors duration-300 ease-in-out h-full flex items-center after:content-[''] after:absolute after:left-0 after:right-0 after:bottom-[-23px] after:h-[6px] after:bg-indigo-600 after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100 after:origin-left
-                ${pathname=== "/" + local + item.href ? 'text-indigo-600 after:scale-x-100' : ''}
+              className={`relative text-sm font-semibold leading-6 text-gray-900 hover:text-[#0C6640] transition-colors duration-300 ease-in-out h-full flex items-center after:content-[''] after:absolute after:left-0 after:right-0 after:bottom-[-23px] after:h-[6px] after:bg-[#0C6640] after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100 after:origin-left
+                ${pathname=== "/" + local + item.href ? 'text-[#0C6640] after:scale-x-100' : ''}
               `}
             >
 

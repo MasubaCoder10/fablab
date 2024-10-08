@@ -3,9 +3,19 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --primary-green: #0C6640;
+  --primary-blue: #0B036B;
+  --primary-orange: #FF6F00;;
 }
 
+.swiper-button-prev, .swiper-button-next {
+  color: var(--primary-green); /* Custom green for navigation arrows */
+}
 
+.swiper-pagination-bullet {
+  background-color: var(--primary-purple); /* Custom purple for pagination bullets */
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--primary-blue); /* Custom blue for active bullet */
+}
