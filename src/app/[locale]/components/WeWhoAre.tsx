@@ -29,13 +29,13 @@ const WhoWeAre = () => {
   return (
     <section className="relative  text-white py-16">
      
-      <div className="absolute inset-0 bg-gradient-to-b from-[#0A285F] via-[#001A40] to-[#001A40] opacity-90 z-[-1]" />
+      <div className="absolute inset-0 bg-gradient-to-b from-[#f5f5f5] via-[#e5e5e5] to-[#e5e5e5] opacity-90 z-[-1]" />
 
      
       <div className="text-center mb-12">
-        <h2 className="text-4xl font-bold text-[#FFC72C]">Who We Are</h2>
-        <p className="text-lg mt-4 text-white/80">
-          Discover our journey, mission, and the people behind our success.
+        <h2 className="text-4xl font-bold text-[#064f32]">The work we do</h2>
+        <p className="text-lg mt-4 text-black">
+        Turning ideas into innovation.
         </p>
       </div>
 
@@ -47,17 +47,17 @@ const WhoWeAre = () => {
           <div className="md:w-1/2">
             <h3 className="text-2xl font-bold mb-4 text-[#0A285F]">Our Purpose</h3>
             <p className=" mb-6 text-[#0A285F]">
-            We are a Niger-based organization with a vision to empower the next generation of leaders across Africa. Our programs focus on leadership development, providing young people with the tools, mentorship, and opportunities they need to make a meaningful impact in their communities and beyond.
+            We’re actively building remarkable things in key areas of AI that are shaping an AI-driven future. A future we aim to enhance through our many, diverse fundamental and applied research projects.
             </p>
             <p className=" text-[#0A285F]">
-            What sets us apart is our commitment to creating a unique, immersive learning environment tailored to the challenges and opportunities of Africa. Our leadership programs go beyond theoretical knowledge, emphasizing real-world application, personal growth, and the development of skills that empower young leaders to drive meaningful change across the continent.
+            We’re actively building remarkable things in key areas of AI that are shaping an AI-driven future. A future we aim to enhance through our many, diverse fundamental and applied research projects.
             </p>
           </div>
 
          
           <div className="md:w-1/2 mt-8 md:mt-0">
             <Image
-              src={whoWeAre}
+              src={''}
               alt="Leadership Team"
               width={600}
               height={400}

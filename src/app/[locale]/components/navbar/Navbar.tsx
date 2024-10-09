@@ -5,6 +5,7 @@ import { useTranslations } from 'next-intl';
 import { Dialog, DialogPanel } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import Image, { StaticImageData } from 'next/image';
+import logo from '../../../../assets/images/NILAB__logo.png'
 import { usePathname } from 'next/navigation';
 import { FaChevronDown } from 'react-icons/fa';
 import enFlag from './flags/en.png';
@@ -17,11 +18,11 @@ interface Props {
 const NavBar: React.FC<Props> = ({ local }) => {
   const t = useTranslations('navBar');
   const pathname = usePathname();
-console.log('path', pathname);
+  console.log('path', pathname);
   const navigation = [
     { name: t('research'), href: '' },
     { name: t('aboutus'), href: '/about' },
-    
+
     { name: t('blog'), href: '/blog' },
     { name: t('contac'), href: '/programs' },
   ];
@@ -57,12 +58,21 @@ console.log('path', pathname);
 
   return (
     <header id="home" className="absolute inset-x-0 top-0 z-50">
-      <nav aria-label="Global" className="flex items-center justify-around p-6 lg:px-8 fixed top-0 w-full bg-white bg-opacity-90 h-[80px]">
+      <nav aria-label="Global" className="flex items-center justify-around p-6 lg:px-8 fixed top-0 w-full bg-white bg-opacity-90 h-[90px]">
         <div className="flex lg:flex">
-          <a href="#home" className="-m-1.5 p-1.5 flex items-center gap-2">
-            <span className="sr-only">FabLab</span>
-            <span className="text-2xl font-bold text-[#0C6640]">FabLab</span>
-          </a>
+          <Image
+            src={logo}
+            alt="logo"
+            className="h-[100px] w-full max-w-[160px] md:max-w-[300px] lg:max-w-[400px] object-cover"
+            sizes="(max-width: 768px) 160px, (max-width: 1024px) 300px, 400px"
+            priority
+          />
+          {/* <Image
+        src={logo}
+        alt="logo"
+        className="h-auto w-auto max-w-[120px] md:max-w-[160px] lg:max-w-[180px]" // Adjust logo size
+        priority
+      /> */}
           <div className="md:hidden flex items-center sm:ml-20">
             <button
               className="appearance-none border-none outline-none bg-transparent text-sm focus:outline-none"
@@ -101,12 +111,12 @@ console.log('path', pathname);
               key={item.name}
               href={"/" + local + item.href}
               className={`relative text-sm font-semibold leading-6 text-gray-900 hover:text-[#0C6640] transition-colors duration-300 ease-in-out h-full flex items-center after:content-[''] after:absolute after:left-0 after:right-0 after:bottom-[-23px] after:h-[6px] after:bg-[#0C6640] after:scale-x-0 after:transition-transform after:duration-300 hover:after:scale-x-100 after:origin-left
-                ${pathname=== "/" + local + item.href ? 'text-[#0C6640] after:scale-x-100' : ''}
+                ${pathname === "/" + local + item.href ? 'text-[#0C6640] after:scale-x-100' : ''}
               `}
             >
 
-              
-              
+
+
               {item.name}
             </a>
           ))}

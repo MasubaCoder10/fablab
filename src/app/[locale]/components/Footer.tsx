@@ -3,7 +3,7 @@ import React from 'react';
 import { FaFacebook, FaLinkedin, FaInstagram, FaTwitter, FaClock, FaArrowUp } from 'react-icons/fa';
 import Link from 'next/link';
 import Image from 'next/image';
-
+import logo from '../../../assets/images/NILAB__logo.png'
 
 interface Parametre {
   id: string;
@@ -26,8 +26,8 @@ const Footer: React.FC = () => {
   };
   const parametre: Parametre = {
     id: '1',
-    email: 'contact@nextleadership.com',
-    slogan: 'Empowering the next generation of leaders for a brighter future.',
+    email: 'contact@nilab.com',
+    slogan: 'Innovating Locally, Empowering Globally',
     number: '0123456789',
     linkLinkedIn: 'https://linkedin.com',
     linkInstagram: 'https://instagram.com',
@@ -46,8 +46,13 @@ const Footer: React.FC = () => {
 
             <a href="#home" className="-m-1.5 p-1.5 flex items-center gap-2">
               
-              {/* <Image src="/logo.svg" alt="logo" className="h-10 w-auto" width={100} height={100} /> */}
-              <span className="text-2xl font-bold text-indigo-600">Logo</span>
+              <Image
+            src={logo}
+            alt="logo"
+            className="h-auto w-full max-w-[160px] md:max-w-[300px] lg:max-w-[400px] object-cover"
+            sizes="(max-width: 768px) 160px, (max-width: 1024px) 300px, 400px"
+            priority
+          />
             </a>
            
             <p className="pt-5 ">{parametre.slogan}</p>
@@ -58,7 +63,7 @@ const Footer: React.FC = () => {
           <div>
             <ul className="py-4">
               <li className="py-2">
-                <Link href="/" className="py-2 text-white text-2xl font-bold">Contact Us</Link>
+                <Link href="/contact" className="py-2 text-white text-2xl font-bold">Contact Us</Link>
               </li>
               <p>
               <Link href={`mailto:${parametre.email}`} className="py-4 ">
@@ -78,13 +83,13 @@ const Footer: React.FC = () => {
           <div className="md:py-4 text-center md:text-left">
             <ul>
               <li className="py-2">
-                <Link href="programs" className="py-2 ">Programs</Link>
+                <Link href="/" className="py-2 ">Reaserch</Link>
               </li>
               <li className="py-1">
-                <Link href="#" className={`py-2 text-sm`}>Next Leadership Program</Link>
+                <Link href="#" className={`py-2 text-sm`}>Current Projects</Link>
               </li>
               <li className="py-1">
-                <Link href="#" className={`py-2 text-sm`}>Youth Leadership Program</Link>
+                <Link href="#" className={`py-2 text-sm`}>Past Projects</Link>
               </li>
             </ul>
             
