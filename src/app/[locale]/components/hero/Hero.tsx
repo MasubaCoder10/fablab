@@ -44,12 +44,12 @@ const HeroSlider: React.FC<HeroSliderProps> = ({ slides }) => {
                 </p>
                 <div className="flex space-x-4">
                   <a
-                    href="/programs"
-                    className="rounded-md bg-[#FFC72C] px-3.5 py-2.5 text-sm font-semibold text-black shadow-sm hover:bg-[#e5b71f] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#001A40]"
+                    href="/contact"
+                    className="rounded-md bg-orange-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-orange-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#001A40]"
                   >
                     Join us
                   </a>
-                  <a href="/programs" className="rounded-md px-3.5 py-2.5 text-sm font-semibold leading-6 text-white hover:text-[#f3e3b8]">
+                  <a href="/blog" className="rounded-md px-3.5 py-2.5 text-sm font-semibold leading-6 text-white hover:text-[#f3e3b8]">
                     Explore our Reseach <span aria-hidden="true">→</span>
                   </a>
                 </div>

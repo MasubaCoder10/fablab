@@ -25,34 +25,19 @@ const slides = [
     description: "This book explores Niger's rich linguistic heritage, highlighting stories and cultural wisdom while emphasizing the need to preserve local languages.",
     imageUrl: 'https://cms.groupeditors.com/img/291e87e9-d650-422a-9c6a-eecdc2d043bb.jpg',
   },
- 
+
 ];
 
 
 
 export default function Home() {
-  
+
   return (
     <main>
       <div>
-      <HeroSlider slides={slides} />
-      <CurrentProjects />
-    </div>
-        {/* <HeroSection /> */}
-      {/* <AboutUsSection />
-      <ProgramsOverviewSection />
-      <WorkWithUsSection />   */}
-      {/* <Navbar />
-      <HeroSection />
-      <AboutUsSection />
-      <ProgramsOverviewSection />
-      <WorkWithUsSection /> */}
-
-
-      {/* <div>
-      <h1>{t('title')}</h1>
-      <Link href="/">{t('Accueil')}</Link>
-    </div> */}
+        <HeroSlider slides={slides} />
+        <CurrentProjects />
+      </div>
     </main>
   );
 }

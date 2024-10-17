@@ -10,7 +10,7 @@ const BlogSearchBar: React.FC<BlogSearchProps> = ({ placeholderText = "Search bl
   const [searchQuery, setSearchQuery] = useState<string>("");
 
   return (
-    <div className="w-full mx-auto py-12 px-24">
+    <div className="w-full mx-auto py-2 md:py-12 px-4 md:px-24">
       <div className="relative">
         <input
           type="text"

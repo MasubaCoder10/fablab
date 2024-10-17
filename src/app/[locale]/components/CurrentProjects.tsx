@@ -15,9 +15,7 @@ const CurrentProjects: React.FC = () => {
         router.push(`/${id}`);
     };
 
-    const handleAllTheProject = ()=>{
-        router.push('/blog');
-    }
+    
     return (
         <section className="py-16 bg-gray-50">
             <div className="container mx-auto px-4 ">
@@ -94,13 +92,13 @@ const CurrentProjects: React.FC = () => {
                 </div>
 
                 <div className='flex justify-center'>
-                <button
-                    onClick={()=>handleAllTheProject() }
+                <a
+                    href='/blog'
                     className="inline-flex items-center mt-16 bg-orange-600 hover:bg-orange-500 text-white font-semibold py-2 px-4 rounded-lg shadow-lg transition duration-300"
                 >
 
                     See all the project
-                </button>
+                </a>
                 </div>
             </div>
         </section>

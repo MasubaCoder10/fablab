@@ -22,7 +22,7 @@ export default function page() {
 
       <HeroSection />
       <div>
-      <h1 className="text-6xl font-bold text-[#084029] text-center my-12">Our Blog</h1>
+      <h1 className="text-3xl md:text-6xl font-bold text-[#084029] text-center my-6 md:my-12">Our Blog</h1>
       </div>
       <BlogSearchBar />
 
