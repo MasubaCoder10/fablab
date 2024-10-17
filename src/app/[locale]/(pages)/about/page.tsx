@@ -12,9 +12,9 @@ export default function page() {
     <main>
       
       <HeroSection/>
-      <TheWorkWeDo/>
-      <MissionVision/>
-      <Partnership/>
+      {/* <TheWorkWeDo/>
+      <MissionVision/>*/}
+      <Partnership/> 
       
       
        <MeetTheTeam/>
