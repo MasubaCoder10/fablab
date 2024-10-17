@@ -2,7 +2,6 @@
 import { useState } from 'react';
 import HeroSection from '../../components/HeroBlog';
 import BlogSearchBar from '../../components/BlogSearch';
-import Button from '../../components/Button';
 import blogs from '../../data/blog'
 import BlogCard from '../../components/BlogCard';
 
@@ -35,6 +34,7 @@ export default function page() {
         {blogs.slice(0, visibleCount).map((blog) => (
           <BlogCard
             key={blog.id}
+            id={blog.id}
             imageSrc={blog.imageSrc}
             title={blog.title}
             description={blog.description}

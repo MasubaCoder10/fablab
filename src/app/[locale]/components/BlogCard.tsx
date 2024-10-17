@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import { FaArrowRight } from 'react-icons/fa';
+import { useRouter } from 'next/navigation';
 
 interface BlogCardProps {
   imageSrc: any;
@@ -8,9 +9,14 @@ interface BlogCardProps {
   description: string;
   date: string;
   event: string;
+  id:string
 }
 
-const BlogCard: React.FC<BlogCardProps> = ({ imageSrc, title, description, date, event }) => {
+const BlogCard: React.FC<BlogCardProps> = ({ imageSrc, title, description, date, event, id }) => {
+  const Router = useRouter();
+  const handleLearnMore = (id: string) => {
+    Router.push(`/blog/${id}`)
+  }
   return (
     <div className="bg-white shadow-xl rounded-xl overflow-hidden group">
       <div className="relative h-48 overflow-hidden">
@@ -29,6 +35,7 @@ const BlogCard: React.FC<BlogCardProps> = ({ imageSrc, title, description, date,
           <p className="text-sm text-gray-500">{date}</p>
           <p className="text-sm font-semibold text-[#084029] mb-3">{event}</p>
           <button
+          onClick={()=> handleLearnMore(id)}
             className="text-orange-600 font-semibold relative underline underline-offset-4 transition-transform duration-300 ease-in-out 
                        hover:text-orange-600 focus:ring-2 focus:ring-[#001A40] focus:ring-opacity-50 flex items-center"
           >
