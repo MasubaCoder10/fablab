@@ -14,7 +14,7 @@ const BlogSearchBar: React.FC<BlogSearchProps> = ({ placeholderText = "Search bl
       <div className="relative">
         <input
           type="text"
-          className="w-full p-4 pl-10 text-white bg-[#0A285F] border-2 border-[#001A40] rounded-md focus:outline-none focus:border-[#FFC72C] transition-all duration-300 ease-in-out"
+          className="w-full p-4 pl-10 text-white bg-[#084029] border-2 border-[#084029] rounded-md focus:outline-none focus:border-orange-600 transition-all duration-300 ease-in-out"
           placeholder={placeholderText}
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}

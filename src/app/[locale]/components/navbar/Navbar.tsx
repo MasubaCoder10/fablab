@@ -24,7 +24,7 @@ const NavBar: React.FC<Props> = ({ local }) => {
     { name: t('aboutus'), href: '/about' },
 
     { name: t('blog'), href: '/blog' },
-    { name: t('contac'), href: '/programs' },
+    { name: t('contac'), href: '/contact' },
   ];
 
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);

@@ -23,15 +23,9 @@ export default function page() {
 
       <HeroSection />
       <div>
-      <h1 className="text-6xl font-bold text-[#001A40] text-center my-12">Our Blog</h1>
+      <h1 className="text-6xl font-bold text-[#084029] text-center my-12">Our Blog</h1>
       </div>
       <BlogSearchBar />
-
-      <div className='flex justify-center pb-12 gap-5'>
-        <Button name='All' />
-        <Button name='Next Leadership Program' />
-        <Button name='Youth Leadership Program' />
-      </div>
 
       <section className="max-w-7xl mx-auto px-4 py-12">
       
@@ -55,8 +49,8 @@ export default function page() {
         <div className="flex justify-center mt-8">
           <button
             onClick={loadMoreBlogs}
-            className="text-white bg-[#0A285F] py-3 px-6 rounded-md transition duration-300 ease-in-out 
-                       hover:bg-[#0A285F] focus:outline-none focus:ring-2 focus:ring-[#001A40] focus:ring-opacity-50 
+            className="text-white bg-orange-600 py-3 px-6 rounded-md transition duration-300 ease-in-out 
+                       hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-orange-700 focus:ring-opacity-50 
                        transform hover:scale-110"
           >
             Load Older Blogs

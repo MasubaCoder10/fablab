@@ -25,7 +25,7 @@ const historyPoints = [
   },
 ];
 
-const WhoWeAre = () => {
+const TheWorkWeDo = () => {
   return (
     <section className="relative  text-white py-16">
      
@@ -90,4 +90,4 @@ const WhoWeAre = () => {
   );
 };
 
-export default WhoWeAre;
+export default TheWorkWeDo;

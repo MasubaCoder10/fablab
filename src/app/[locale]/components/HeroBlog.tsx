@@ -2,14 +2,13 @@
 
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-import heroImage from '../../../assets/images/whoWeAre.jpg';
 
 export default function HeroSection() {
   return (
     <section className="relative h-[80vh] flex items-center justify-center text-center bg-cover bg-center">
       <div className="absolute inset-0">
         <Image 
-          src={heroImage} 
+          src="https://t4.ftcdn.net/jpg/01/22/56/35/360_F_122563557_xQh0kIwEo7vaA9H9iRLaPdRZn3VL8AZv.jpg" 
           alt="Hero Image" 
           layout="fill" 
           objectFit="cover" 
@@ -25,7 +24,7 @@ export default function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
-          Next & Youth Leadership Program Articles
+          NILAB Articles
         </motion.h1>
         <motion.p
           className="mt-4 text-xl md:text-2xl text-gray-200"
@@ -33,7 +32,7 @@ export default function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.5 }}
         >
-          Inspiring and nurturing leadership potential in today's youth.
+          Innovating Locally, Empowering Globally.
         </motion.p>
        
       </div>

@@ -1,8 +1,8 @@
 import HeroSection from '../../components/Hero2';
 import MeetTheTeam from '../../components/MeetTheTeam';
 import Partnership from '../../components/Partner';
-import WhoWeAre from '../../components/WeWhoAre';
 import MissionVision from '../../components/MissionVision';
+import TheWorkWeDo from '../../components/TheWorkWeDo';
 
 
 
@@ -12,7 +12,7 @@ export default function page() {
     <main>
       
       <HeroSection/>
-      <WhoWeAre/>
+      <TheWorkWeDo/>
       <MissionVision/>
       <Partnership/>
       
