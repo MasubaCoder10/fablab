@@ -42,12 +42,12 @@ const Partnership = () => {
       <div className="absolute inset-0 bg-gradient-to-b from-[#f3f3f3] via-[#ffffff] to-[#ffffff] opacity-95 z-[-1]" />
 
       {/* Title */}
-      <h2 className="text-center text-5xl font-bold mb-12 text-[#084029]">Our Partners</h2>
+      <h2 className="text-center text-3xl md:text-5xl font-bold mb-12 text-[#084029]">Our Partners</h2>
 
       {/* Logos in Two Rows */}
       <div className="space-y-12">
         {/* First Row of Logos */}
-        <div className="flex justify-around items-center transition-all duration-1000 ease-in-out">
+        <div className="flex flex-wrap justify-around items-center gap-4 transition-all duration-1000 ease-in-out">
           {firstRow.map((partner, index) => (
             <div
               key={index}
@@ -65,7 +65,7 @@ const Partnership = () => {
         </div>
 
         {/* Second Row of Logos */}
-        <div className="flex justify-around items-center transition-all duration-1000 ease-in-out">
+        <div className="flex flex-wrap justify-around items-center gap-4 transition-all duration-1000 ease-in-out">
           {secondRow.map((partner, index) => (
             <div
               key={index}

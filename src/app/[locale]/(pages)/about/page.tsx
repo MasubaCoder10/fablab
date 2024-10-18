@@ -12,8 +12,8 @@ export default function page() {
     <main>
       
       <HeroSection/>
-      {/* <TheWorkWeDo/>
-      <MissionVision/>*/}
+       <TheWorkWeDo/>
+      <MissionVision/>
       <Partnership/> 
       
       

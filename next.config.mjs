@@ -6,7 +6,7 @@ const withNextIntl = createNextIntlPlugin();
 const nextConfig = {
     images: {
         domains: ['africanarguments.org', 'media.istockphoto.com', 't4.ftcdn.net', 'www.un.org', 'cms.groupeditors.com'
-          ,"encrypted-tbn0.gstatic.com", "lh3.googleusercontent.com"
+          ,"encrypted-tbn0.gstatic.com", "lh3.googleusercontent.com", "businesswest.com"
         ],
       },
 };

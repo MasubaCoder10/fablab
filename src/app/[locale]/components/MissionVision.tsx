@@ -1,9 +1,13 @@
+import { div } from 'framer-motion/client';
 import React from 'react';
 
 const MissionAndVision: React.FC = () => {
   return (
+    <div className='relative text-white overflow-hidden'>
+    <div className="absolute inset-0 bg-gradient-to-b from-[#f3f3f3] via-[#ffffff] to-[#f3f3f3] opacity-95 z-[-1]" />
     <section className="max-w-7xl mx-auto py-10 px-5">
-      <h2 className="text-3xl font-bold text-center mb-8">Mission & Vision</h2>
+      
+      <h2 className="text-3xl md:text-4xl font-bold text-center mb-8 text-[#064f32]" >Mission & Vision</h2>
       
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* Mission Statement */}
@@ -23,6 +27,7 @@ const MissionAndVision: React.FC = () => {
         </div>
       </div>
     </section>
+    </div>
   );
 };
 
