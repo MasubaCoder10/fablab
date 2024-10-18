@@ -24,7 +24,7 @@ const TeamMember: React.FC<TeamMemberProps> = ({ name, position, image, story, q
         <p className="text-sm text-[#BFD3E3]">{position}</p>
         <p className="text-center mt-3 text-gray-200">{story}</p>
         <blockquote className="text-center italic text-gray-400 mt-4">
-          "{quote}"
+        &quot;{quote}&quot;
         </blockquote>
 
         {/* Learn More button that shows up on hover */}

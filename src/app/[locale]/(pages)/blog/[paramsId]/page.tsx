@@ -1,5 +1,5 @@
 'use client';
-import { useState } from 'react';
+import React, { useState } from 'react';
 import Image from 'next/image';
 import {useParams, useRouter} from 'next/navigation';
 import HeroSection from '../../../components/HeroBlog';
@@ -9,7 +9,7 @@ import blogs from '../../../data/blog';
 
 
 
-export default function page() {
+export default function Page() {
     const paramsId = useParams<{paramsId: string}>();
     const router = useRouter();
     const blog = blogs.find((blog)=> blog.id === paramsId.paramsId);

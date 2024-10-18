@@ -27,7 +27,7 @@ const CurrentProjects: React.FC = () => {
                 </div>
                 <div className="container mx-auto pl-4 md:pl-8 ">
                     {ongoingProjectFar.map((project, index) => (
-                        <div className="flex flex-col-reverse md:flex-row-reverse md:flex md:justify-between items-center mb-16 bg-white shadow-2xl overflow-hidden group transition-shadow duration-300 hover:shadow-xl">
+                        <div key={index} className="flex flex-col-reverse md:flex-row-reverse md:flex md:justify-between items-center mb-16 bg-white shadow-2xl overflow-hidden group transition-shadow duration-300 hover:shadow-xl">
                             <div className="md:w-1/2 px-6">
                                 <h3 className="text-2xl font-bold mb-4 text-[#064f32] mt-2">{project.title}</h3>
                                 <p className="mb-6 text-gray-900">

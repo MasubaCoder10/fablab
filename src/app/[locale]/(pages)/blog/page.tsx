@@ -1,5 +1,5 @@
 'use client';
-import { useState } from 'react';
+import React, { useState } from 'react';
 import HeroSection from '../../components/HeroBlog';
 import BlogSearchBar from '../../components/BlogSearch';
 import blogs from '../../data/blog'
@@ -8,7 +8,7 @@ import BlogCard from '../../components/BlogCard';
 
 
 
-export default function page() {
+export default function Page() {
 
   const [visibleCount, setVisibleCount] = useState<number>(6);
 
