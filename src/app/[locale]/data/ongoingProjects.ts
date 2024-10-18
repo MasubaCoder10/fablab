@@ -48,4 +48,8 @@ export const ongoingProjects = [
     
   ]
 
-  export default {ongoingProjects, ongoingProjectFar};
+
+const projectExports = { ongoingProjects, ongoingProjectFar };
+
+
+export default projectExports;

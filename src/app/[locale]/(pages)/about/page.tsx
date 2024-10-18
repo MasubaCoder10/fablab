@@ -6,7 +6,7 @@ import TheWorkWeDo from '../../components/TheWorkWeDo';
 
 
 
-export default function page() {
+export default function Page() {
   
   return (
     <main>

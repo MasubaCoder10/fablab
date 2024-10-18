@@ -1,7 +1,7 @@
 // components/Partnership.tsx
 'use client';
 import Image from 'next/image';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useCallback } from 'react';
 import { PartenersImgs } from '../data/parteners'; 
 
 const Partnership = () => {
@@ -9,15 +9,8 @@ const Partnership = () => {
   const [firstRow, setFirstRow] = useState(PartenersImgs.slice(0, 4));
   const [secondRow, setSecondRow] = useState(PartenersImgs.slice(4, 8));
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      rotateLogos();
-    }, 3000); // Adjust the speed of rotation
-
-    return () => clearInterval(interval);
-  }, [firstRow, secondRow]);
-
-  const rotateLogos = () => {
+  // Memoizing the rotateLogos function to prevent unnecessary re-creations
+  const rotateLogos = useCallback(() => {
     const newFirstRow = [...firstRow];
     const newSecondRow = [...secondRow];
 
@@ -31,10 +24,17 @@ const Partnership = () => {
       newFirstRow.push(secondLogo); // Add it to the end of the first row
     }
 
-    // Update state
     setFirstRow(newFirstRow);
     setSecondRow(newSecondRow);
-  };
+  }, [firstRow, secondRow]);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      rotateLogos();
+    }, 3000); // Adjust the speed of rotation
+
+    return () => clearInterval(interval);
+  }, [rotateLogos]); // Use rotateLogos as a dependency
 
   return (
     <section className="relative py-16 text-white overflow-hidden">
