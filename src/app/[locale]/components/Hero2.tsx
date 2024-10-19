@@ -1,9 +1,7 @@
-import Image from 'next/image';
+
 import React from 'react';
-import { useTranslations } from 'next-intl'; 
-import hero2Image from '../../../assets/images/about.jpg'
 const HeroSection: React.FC = () => {
-  const t = useTranslations('Hero2'); 
+
 
   return (
 
@@ -20,7 +18,7 @@ const HeroSection: React.FC = () => {
       
       <div className="relative z-10 text-center text-white px-6 lg:px-12">
         <h1 className="text-4xl md:text-6xl font-bold mb-4">
-          {t('title')}
+        Innovating Locally, Empowering Globally
         </h1>
         
         

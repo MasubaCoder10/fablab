@@ -5,34 +5,58 @@
     "blog": "Blog",
     "aboutus": "A propos"
   },
-  "hero": {
-    "title": "Façonner l'avenir de l'Afrique, un leader à la fois",
-    "description": "Révélez votre potentiel. Rejoignez nos programmes de transformation pour maîtriser des compétences essentielles, déclencher des changements civiques et diriger avec détermination au Niger et au-delà.",
-    "btnApply": "Postuler",
-    "linkProgram": "Découvrez nos programmes"
+  "hero1": [
+    {
+      "title": "Le Premier Laboratoire de Recherche en IA au Niger",
+      "description": "Notre laboratoire de recherche en intelligence artificielle est dédié à l'avancement des technologies et à la création de solutions concrètes qui favorisent le progrès sociétal. Nous nous concentrons sur l'exploitation de l'IA pour répondre aux défis locaux, encourager le développement économique et améliorer la qualité de vie.",
+      "btnApply": "Rejoignez-Nous",
+      "linkProgram": "Explorez Nos Recherches"
+    },
+    {
+      "title": "Laboratoire de Robotique",
+      "description": "Notre laboratoire de robotique explore l'intersection entre technologie et créativité. En développant des solutions robotiques avancées, nous visons à révolutionner des secteurs tels que l'agriculture, la santé et l'industrie manufacturière. Rejoignez-nous pour façonner l'avenir de l'automatisation et des systèmes intelligents.",
+      "btnApply": "Rejoignez-Nous",
+      "linkProgram": "Explorez Nos Recherches"
+    },
+    {
+      "title": "Programme de Mentorat",
+      "description": "Notre programme de mentorat s'engage à cultiver les jeunes talents en leur offrant une expérience pratique et des conseils en recherche IA. Nous visons à doter la prochaine génération des compétences et des connaissances nécessaires pour exceller dans le domaine en pleine expansion de l'IA et laisser une empreinte durable au Niger et au-delà.",
+      "btnApply": "Rejoignez-Nous",
+      "linkProgram": "Explorez Nos Recherches"
+    }
+  ],
+  "Btn": {
+    "btnSeeAll": "See all the project",
+    "btnLoadMore": "Load More",
+    "btnLoadOlderBlogs": "Load Older Blogs",
+    "btnApply": "Rejoignez-Nous",
+    "linkProgram": "Explorez Nos Recherches"
   },
-  "aboutUs": {
-    "about": "À propos de Next Leadership",
-    "title": "Nous formons, équipons et connectons les jeunes leaders pour qu'ils excellent !",
-    "description": "Avec une population jeune et croissante, le Niger fait face à des défis uniques en matière de développement. Chez Next Leadership, nous donnons aux jeunes les outils nécessaires pour diriger, innover et faire la différence. Depuis 2016, nous avons formé des milliers de personnes à travers l'Afrique avec des compétences telles que la prise de parole en public, le leadership et les compétences du 21ème siècle.",
-    "btnReadMore": "Lisez notre histoire complète"
-  },
-  "program": {
-    "title": "Découvrez nos programmes",
-    "description": "Explorez nos divers programmes conçus pour autonomiser les jeunes leaders dans différents domaines. Choisissez celui qui correspond le mieux à vos aspirations et objectifs de carrière.",
-    "blogNameNext": "Programme Next Leadership",
-    "blogDesNext": "Une expérience de formation rigoureuse pour les jeunes professionnels et diplômés (âgés de 20 à 30 ans) visant à réussir dans des carrières compétitives. Maîtrisez les compétences humaines et conceptuelles, développez des capacités administratives et découvrez les bases de l'entrepreneuriat.",
-    "blogPeripdNext": "Période typique: Automne, Printemps",
-    "blogBtnLearnMoreNext": "Programme Next Leadership",
-    "blogNameYouth": "Programme de Leadership pour Jeunes",
-    "blogDesYouth": "Destiné aux élèves du lycée (âgés de 15 à 20 ans), ce programme se concentre sur l'engagement civique, l'excellence académique, les compétences en communication, le leadership et les compétences entrepreneuriales essentielles.",
-    "blogPeripdYouth": "Période typique: Été",
-    "blogBtnLearnMoreYouth": "Programme de Leadership pour Jeunes"
-  },
+  "ReseachPageSectionCard1": {
+  "title": "Projets Actuels",
+  "description": "Nos recherches se concentrent sur l'utilisation de la technologie pour répondre aux besoins locaux au Niger.",
+  "FistCardTitle": "Feriji : Un Corpus Parallèle Français-Zarma, Glossaire & Traducteur",
+  "date": "Août, 2024",
+  "authors": [
+    "Mamadou Keita",
+    "Elysabhete Ibrahim",
+    "Habibatou Alfari",
+    "Christopher Homan"
+  ],
+  "publisher": "Association pour la Linguistique Informatique",
+  "researchTopics": [
+    "TALN",
+    "Ressources Limitées",
+    "Zarma"
+  ],
+  "FistCardDescription": "La traduction automatique (TA) est un domaine en pleine expansion qui a connu des avancées significatives ces dernières années avec le développement de modèles capables de traduire plusieurs langues avec une précision remarquable. Cependant, la représentation des langues africaines dans ce domaine doit encore être améliorée en raison des complexités linguistiques et des ressources limitées. Cela s'applique à la langue zarma, un dialecte du songhay (de la famille des langues nilo-sahariennes) parlé par plus de 5 millions de personnes au Niger et dans les pays voisins (Lewis et al., 2016). Cet article présente Feriji, le premier corpus parallèle robuste français-zarma et un glossaire conçu pour la TA. Le corpus, contenant 61 085 phrases en zarma et 42 789 en français, ainsi qu'un glossaire de 4 062 mots, représente une avancée significative pour répondre au besoin de ressources supplémentaires pour le zarma. Nous ajustons trois grands modèles linguistiques sur notre ensemble de données, obtenant un score BLEU de 30,06 sur le modèle le plus performant. Nous évaluons également les modèles en fonction des jugements humains sur la fluidité, la compréhension et la lisibilité, ainsi que sur l'importance et l'impact du corpus et des modèles. Nos contributions aident à combler un écart linguistique important et à promouvoir une langue africaine indigène essentielle et souvent négligée.",
+  "FistCardBtn": "Lire Plus"
+},
+
   "workWithUs": {
     "title": "Travaillez avec nous",
     "description": "Nous donnons aux jeunes leaders les compétences pour diriger, innover et faire la différence. Rejoignez-nous pour façonner l'avenir.",
-    "linkAbout":"À propos de nous",
+    "linkAbout": "À propos de nous",
     "linkTeam": "Vous voulez rejoindre notre équipe ?",
     "linkValues": "Nos valeurs",
     "linkMeet": "Rencontrez notre équipe dirigeante",
@@ -41,18 +65,15 @@
     "linkAccepted": "Acceptés",
     "linkConferences": "Conférences"
   },
- "footer": {
-  "slogan": "Autonomiser la prochaine génération de leaders pour un avenir meilleur.",
-  "contactLink": "Contactez-nous",
-  "programLink": "Programmes",
-  "nextleadershipLink": "Programme de Next Leadership",
-  "youthleadershipLink": "Programme de Leadership Jeunesse",
-  "blog": "blog",
-  "latestBlog": "Nos Derniers Blog",
-  "allBlog": "Tous Nos Blogs",
-  "aboutUs": "À propos de nous"
+  "footer": {
+    "slogan": "Autonomiser la prochaine génération de leaders pour un avenir meilleur.",
+    "contactLink": "Contactez-nous",
+    "programLink": "Programmes",
+    "nextleadershipLink": "Programme de Next Leadership",
+    "youthleadershipLink": "Programme de Leadership Jeunesse",
+    "blog": "blog",
+    "latestBlog": "Nos Derniers Blog",
+    "allBlog": "Tous Nos Blogs",
+    "aboutUs": "À propos de nous"
+  }
 }
-
-}
-
-

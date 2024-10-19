@@ -13,7 +13,6 @@ export default function Page() {
       
       <HeroSection/>
        <TheWorkWeDo/>
-      <MissionVision/>
       <Partnership/> 
       
       

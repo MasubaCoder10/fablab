@@ -35,7 +35,7 @@ const ContactForm: React.FC = () => {
           className="border-2 rounded w-full py-2 px-3 text-gray-900 leading-tight focus:outline-none focus:shadow-outline focus:ring focus:border-green-100"
           id="nom"
           type="text"
-          placeholder={t('name')}
+          placeholder={"Name"}
           value={formData.nom}
           onChange={handleChange}
           required

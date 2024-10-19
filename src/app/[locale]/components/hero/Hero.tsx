@@ -4,11 +4,12 @@ import { Pagination, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import './heroSlider.css';
+import { useTranslations } from 'next-intl';
 
 interface Slide {
   title: string;
   description: string;
-  imageUrl: string;
+  imageUrl: any;
 }
 
 interface HeroSliderProps {
@@ -16,6 +17,7 @@ interface HeroSliderProps {
 }
 
 const HeroSlider: React.FC<HeroSliderProps> = ({ slides }) => {
+  const t = useTranslations('Btn');
   return (
     <section className="relative w-full h-screen md:h-[100vh]">
       <Swiper
@@ -29,7 +31,7 @@ const HeroSlider: React.FC<HeroSliderProps> = ({ slides }) => {
           <SwiperSlide key={index}>
             <div
               className="relative w-full h-screen md:h-[100vh] bg-cover bg-center"
-              style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 26, 64, 0.8)), url(${slide.imageUrl})` }}
+              style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 26, 64, 0.8)), url(${slide.imageUrl.src})`, }}
             >
              
 
@@ -39,7 +41,7 @@ const HeroSlider: React.FC<HeroSliderProps> = ({ slides }) => {
                 <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">
                   {slide.title}
                 </h2>
-                <p className="max-w-2xl text-lg md:text-xl">
+                <p className="max-w-6xl text-lg md:text-xl">
                   {slide.description}
                 </p>
                 <div className="flex space-x-4">
@@ -47,10 +49,10 @@ const HeroSlider: React.FC<HeroSliderProps> = ({ slides }) => {
                     href="/contact"
                     className="rounded-md bg-orange-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-orange-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#001A40]"
                   >
-                    Join us
+                    {t('btnApply')}
                   </a>
                   <a href="/blog" className="rounded-md px-3.5 py-2.5 text-sm font-semibold leading-6 text-white hover:text-[#f3e3b8]">
-                    Explore our Reseach <span aria-hidden="true">→</span>
+                  {t('linkProgram')} <span aria-hidden="true">→</span>
                   </a>
                 </div>
               </div>
