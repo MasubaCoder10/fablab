@@ -3,9 +3,9 @@
 import Image from 'next/image';
 import { useEffect, useState, useCallback } from 'react';
 import { PartenersImgs } from '../data/parteners'; 
-
+import { useTranslations } from 'next-intl';
 const Partnership = () => {
-  // Splitting the partner images into two rows
+  const t = useTranslations('AboutUsPageSection3');
   const [firstRow, setFirstRow] = useState(PartenersImgs.slice(0, 4));
   const [secondRow, setSecondRow] = useState(PartenersImgs.slice(4, 8));
 
@@ -42,7 +42,7 @@ const Partnership = () => {
       <div className="absolute inset-0 bg-gradient-to-b from-[#f3f3f3] via-[#ffffff] to-[#ffffff] opacity-95 z-[-1]" />
 
       {/* Title */}
-      <h2 className="text-center text-3xl md:text-5xl font-bold mb-12 text-[#084029]">Our Partners</h2>
+      <h2 className="text-center text-3xl md:text-5xl font-bold mb-12 text-[#084029]"> {t('titlePartner')} </h2>
 
       {/* Logos in Two Rows */}
       <div className="space-y-12">

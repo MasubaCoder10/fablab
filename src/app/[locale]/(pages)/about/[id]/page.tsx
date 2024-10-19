@@ -6,11 +6,12 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { FaFacebook, FaLinkedin, FaInstagram, FaTwitter,} from 'react-icons/fa';
 import HeroSection from '@/src/app/[locale]/components/Hero2';
+import { useTranslations } from 'next-intl';
 
 const TeamMemberDetails = () => {
   const params = useParams<{ id: string }>()
   const router = useRouter()
-
+  const t = useTranslations('AboutUsPageHero');
   // Find the team member by id
   const member = teamMembers.find((member) => member.id === parseInt(params.id));
 

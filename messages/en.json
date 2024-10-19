@@ -124,32 +124,18 @@
   "AboutUsPageHero": {
     "title": "Innovating Locally, Empowering Globally"
   },
-  "AboutUsPageSection1": {
-    "title": "Our Goals",
-    "bio": "Turning ideas into innovation."
-  },
   "AboutUsPageSection1Card1": {
-    "title": "The work we do",
-    "bio": "We’re actively building remarkable things in key areas of AI that are shaping an AI-driven future. A future we aim to enhance through our many, diverse fundamental and applied research projects. We’re actively building remarkable things in key areas of AI that are shaping an AI-driven future. A future we aim to enhance through our many, diverse fundamental and applied research projects.",
-    "btn": "Learn More about our research"
-  },
-  "AboutUsPageSection2": {
     "title": "Mission & Vision",
-    "bio": "Turning ideas into innovation."
-  },
-  "AboutUsPageSection2Card1": {
-    "title": "Mission",
-    "bio": "Our mission is to empower individuals and communities in Niger through innovative technology and creative solutions. We aim to provide access to advanced tools, training, and resources, fostering a culture of collaboration and creativity."
-  },
-  "AboutUsPageSection2Card2": {
-    "title": "Vision",
-    "bio": "Our vision is to be a leading hub of innovation in Niger, where technology meets creativity. We envision a future where local talents harness the power of digital fabrication to address community challenges and contribute to sustainable development."
+    "titleCard1":"Mission",
+    "titleCard2":"Vision",
+    "bio1": "NILab is committed to advancing AI and Robotics research in Niger to address societal challenges and drive local innovation. We are dedicated to empowering communities with cutting-edge technology while promoting a culture of scientific excellence.",
+    "bio2": "Our vision is to be the leading AI research hub in West Africa. We aim to develop the next generation of Niger researchers who will contribute to the global scientific community and shape the future of technology.",
+    "btn1": "Learn More about our research",
+    "btn2": "Join Us"
   },
   "AboutUsPageSection3": {
-    "title": "Our Partners"
-  },
-  "AboutUsPageSection4": {
-    "title": "Meet the Team"
+    "titlePartner": "Our Partners",
+    "titleTeam": "Meet the Team"
   },
   "AboutUsPageSection4Card": [
     {

@@ -16,7 +16,7 @@ const ContactForm: React.FC = () => {
     message: ''
   });
 
-  const t = useTranslations('contact');
+  const t = useTranslations('ContactUsPageForm');
 
   const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { id, value } = e.target;
@@ -35,7 +35,7 @@ const ContactForm: React.FC = () => {
           className="border-2 rounded w-full py-2 px-3 text-gray-900 leading-tight focus:outline-none focus:shadow-outline focus:ring focus:border-green-100"
           id="nom"
           type="text"
-          placeholder={"Name"}
+          placeholder={t('name')}
           value={formData.nom}
           onChange={handleChange}
           required
@@ -46,7 +46,7 @@ const ContactForm: React.FC = () => {
           className="border-2 rounded w-full py-2 px-3 text-gray-900 leading-tight focus:outline-none focus:shadow-outline focus:ring focus:border-green-100"
           id="email"
           type="email"
-          placeholder="Email"
+          placeholder={t('email')}
           value={formData.email}
           onChange={handleChange}
           required
@@ -56,7 +56,7 @@ const ContactForm: React.FC = () => {
         <textarea
           className="border-2 rounded w-full py-2 px-3 text-gray-900 leading-tight focus:outline-none focus:shadow-outline focus:ring focus:border-green-100"
           id="message"
-          placeholder="Message"
+          placeholder={t('message')}
           value={formData.message}
           onChange={handleChange}
           required
@@ -67,7 +67,7 @@ const ContactForm: React.FC = () => {
           className={` border-2  border-orange-600 bg-white hover:bg-orange-600 text-[#084029] px-6 py-2 rounded-2xl font-semibold hover:text-white`}
           type="submit"
         >
-          Submit
+          {t('btn')}
         </button>
       </div>
     </form>

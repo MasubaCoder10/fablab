@@ -52,28 +52,43 @@
   "FistCardDescription": "La traduction automatique (TA) est un domaine en pleine expansion qui a connu des avancées significatives ces dernières années avec le développement de modèles capables de traduire plusieurs langues avec une précision remarquable. Cependant, la représentation des langues africaines dans ce domaine doit encore être améliorée en raison des complexités linguistiques et des ressources limitées. Cela s'applique à la langue zarma, un dialecte du songhay (de la famille des langues nilo-sahariennes) parlé par plus de 5 millions de personnes au Niger et dans les pays voisins (Lewis et al., 2016). Cet article présente Feriji, le premier corpus parallèle robuste français-zarma et un glossaire conçu pour la TA. Le corpus, contenant 61 085 phrases en zarma et 42 789 en français, ainsi qu'un glossaire de 4 062 mots, représente une avancée significative pour répondre au besoin de ressources supplémentaires pour le zarma. Nous ajustons trois grands modèles linguistiques sur notre ensemble de données, obtenant un score BLEU de 30,06 sur le modèle le plus performant. Nous évaluons également les modèles en fonction des jugements humains sur la fluidité, la compréhension et la lisibilité, ainsi que sur l'importance et l'impact du corpus et des modèles. Nos contributions aident à combler un écart linguistique important et à promouvoir une langue africaine indigène essentielle et souvent négligée.",
   "FistCardBtn": "Lire Plus"
 },
+"ContactUsPage": {
+  "title": "Connectez-vous avec nous"
+},
+"ContactUsPageForm": {
+  "name": "Nom",
+  "email": "Email",
+  "message": "Message",
+  "btn": "Envoyer"
+},
+"AboutUsPageHero": {
+  "title": "Innover localement, impacter mondialement"
+},
+"AboutUsPageSection1Card1": {
+  "title": "Mission & Vision",
+  "titleCard1": "Mission",
+  "titleCard2": "Vision",
+  "bio1": "NILab s'engage à faire progresser la recherche en IA et en robotique au Niger pour répondre aux défis sociétaux et stimuler l'innovation locale. Nous sommes dévoués à l'autonomisation des communautés grâce à des technologies de pointe tout en promouvant une culture d'excellence scientifique.",
+  "bio2": "Notre vision est de devenir le principal centre de recherche en IA en Afrique de l'Ouest. Nous visons à former la prochaine génération de chercheurs nigériens qui contribueront à la communauté scientifique mondiale et façonneront l'avenir de la technologie.",
+  "btn1": "En savoir plus sur nos recherches",
+  "btn2": "Rejoignez-nous"
+},
+"AboutUsPageSection3": {
+  "titlePartner": "Nos Partenaires",
+  "titleTeam": "Rencontrez notre équipe dirigeante"
+},
 
-  "workWithUs": {
-    "title": "Travaillez avec nous",
-    "description": "Nous donnons aux jeunes leaders les compétences pour diriger, innover et faire la différence. Rejoignez-nous pour façonner l'avenir.",
-    "linkAbout": "À propos de nous",
-    "linkTeam": "Vous voulez rejoindre notre équipe ?",
-    "linkValues": "Nos valeurs",
-    "linkMeet": "Rencontrez notre équipe dirigeante",
-    "linkProgram": "Programmes organisés",
-    "linkApplicants": "Candidats annuels",
-    "linkAccepted": "Acceptés",
-    "linkConferences": "Conférences"
-  },
   "footer": {
-    "slogan": "Autonomiser la prochaine génération de leaders pour un avenir meilleur.",
-    "contactLink": "Contactez-nous",
-    "programLink": "Programmes",
-    "nextleadershipLink": "Programme de Next Leadership",
-    "youthleadershipLink": "Programme de Leadership Jeunesse",
-    "blog": "blog",
-    "latestBlog": "Nos Derniers Blog",
-    "allBlog": "Tous Nos Blogs",
-    "aboutUs": "À propos de nous"
-  }
+  "slogan": "Innover Localement, impacter mondialement",
+  "contactLink": "Contactez-nous",
+  "programLink": "Recherche",
+  "currentProjectLink": "Projet en Cours",
+  "pastProjectLink": "Projet Passé",
+  "blog": "Blog",
+  "latestBlog": "Nos Derniers Articles de Blog",
+  "allBlog": "Tous Nos Blogs",
+  "aboutUs": "À propos de nous",
+  "btn": "Retour en haut",
+  "policy": "Tous droits réservés."
+}
 }
