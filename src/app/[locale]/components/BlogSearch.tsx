@@ -1,5 +1,6 @@
 
 'use client';
+import { useTranslations } from 'next-intl';
 import { useState } from 'react';
 
 interface BlogSearchProps {
@@ -8,14 +9,14 @@ interface BlogSearchProps {
 
 const BlogSearchBar: React.FC<BlogSearchProps> = ({ placeholderText = "Search blogs..." }) => {
   const [searchQuery, setSearchQuery] = useState<string>("");
-
+  const t = useTranslations('BlogPageSection1')
   return (
     <div className="w-full mx-auto py-2 md:py-12 px-4 md:px-24">
       <div className="relative">
         <input
           type="text"
           className="w-full p-4 pl-10 text-white bg-[#084029] border-2 border-[#084029] rounded-md focus:outline-none focus:border-orange-600 transition-all duration-300 ease-in-out"
-          placeholder={placeholderText}
+          placeholder={t('searchBlog')}
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
         />

@@ -2,8 +2,9 @@
 
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-
+import { useTranslations } from 'next-intl';
 export default function HeroSection() {
+  const t = useTranslations('BlogPageHero')
   return (
     <section className="relative h-[80vh] flex items-center justify-center text-center bg-cover bg-center">
       <div className="absolute inset-0">
@@ -24,7 +25,7 @@ export default function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
-          NILAB Articles
+          {t('title')}
         </motion.h1>
         <motion.p
           className="mt-4 text-xl md:text-2xl text-gray-200"
@@ -32,7 +33,7 @@ export default function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.5 }}
         >
-          Innovating Locally, Empowering Globally.
+          {t('bio')}
         </motion.p>
        
       </div>

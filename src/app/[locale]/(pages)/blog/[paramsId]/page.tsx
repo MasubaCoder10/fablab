@@ -3,7 +3,8 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import {useParams, useRouter} from 'next/navigation';
 import HeroSection from '../../../components/HeroBlog';
-import blogs from '../../../data/blog';
+import getBlogPosts from '../../../data/blog';
+import { useTranslations } from 'next-intl';
 
 
 
@@ -12,6 +13,8 @@ import blogs from '../../../data/blog';
 export default function Page() {
     const paramsId = useParams<{paramsId: string}>();
     const router = useRouter();
+    const tBtn = useTranslations('Btn')
+    const blogs = getBlogPosts();
     const blog = blogs.find((blog)=> blog.id === paramsId.paramsId);
 
     if(!blog){
@@ -65,7 +68,7 @@ export default function Page() {
             onClick={() => router.back()}
             className="bg-orange-600  text-white py-2 px-4 rounded-full font-bold hover:bg-orange-700 transition duration-300"
           >
-            Back to Team
+           {tBtn('backToTeam')}
           </button>
         </div>
 

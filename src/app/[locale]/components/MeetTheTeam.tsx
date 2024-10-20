@@ -3,8 +3,7 @@ import Image from 'next/image';
 import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { useTranslations } from 'next-intl';
-import imKeita from '../../../assets/images/MK.jpg'
-
+import getTeamMembers  from '../data/teamMembers'
 
 const MeetTheTeam: React.FC = () => {
   const [visibleTeamCount, setVisibleTeamCount] = useState(3);
@@ -12,58 +11,9 @@ const MeetTheTeam: React.FC = () => {
   const t = useTranslations('AboutUsPageSection3');
   const tt = useTranslations('teamMembers');
   const tBtn = useTranslations('Btn');
-console.log('tt', tt('sofiane.position'))
-  const teamMembers = [
-    {
-      id: 1,
-      name: 'Mamadou K. KEITA',
-      position: tt('sofiane.position'),
-      bio: tt('sofiane.bio'),
-      story: tt('sofiane.story'),
-      quote: tt('sofiane.quote'),
-      linkFacebook:"#",
-      linkLinkdin:"#",
-      linkTwitter:"#",
-      image: imKeita,
-    },
-    {
-      id: 2,
-      name: 'Mamadou K. KEITA',
-      position: tt('maya.position'),
-      bio: tt('maya.bio'),
-      story: tt('maya.story'),
-      quote: tt('maya.quote'),
-      linkFacebook:"#",
-      linkLinkdin:"#",
-      linkTwitter:"#",
-      image: imKeita,
-    },
-    {
-      id: 3,
-      name: 'Mamadou K. KEITA',
-      position: tt('ali.position'),
-      bio: tt('ali.bio'),
-      story: tt('ali.story'),
-      quote: tt('ali.quote'),
-      linkFacebook:"#",
-      linkLinkdin:"#",
-      linkTwitter:"#",
-      image: imKeita,
-    },   
-    {
-      id: 4,
-      name: 'Mamadou K. KEITA',
-      position: tt('ali.position'),
-      bio: tt('ali.bio'),
-      story: tt('ali.story'),
-      quote: tt('ali.quote'),
-      linkFacebook:"#",
-      linkLinkdin:"#",
-      linkTwitter:"#",
-      image: imKeita,
-    },
-    
-  ];
+
+ 
+  const teamMembers = getTeamMembers();
 
   const handleLoadMore = () => {
     setVisibleTeamCount((prevCount) => prevCount + 2);

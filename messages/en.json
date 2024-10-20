@@ -118,6 +118,7 @@
     "btnSeeAll": "See all the project",
     "btnLoadMore": "Load More",
     "readMore": "Read More",
+    "backToTeam": "Back to Team",
     "btnLoadOlderBlogs": "Load Older Blogs",
     "btnApply": "Join Us",
     "linkProgram": "Explore Our Research"
@@ -176,52 +177,119 @@
   },
   "BlogPageSection1": {
     "title": "Our Blog",
-    "searchBlog": "Search blogs"
+    "searchBlog": "Search blogs..."
   },
-  "BlogPageSection1Card": [
-    {
-      "title": "Niger Fablab Innovation Program",
-      "description": "Fostering creativity through innovative technologies...",
-      "date": "2024-02-15",
-      "event": "Innovation Program",
-      "btn": "Read More"
-    },
-    {
-      "title": "Niger Fablab Innovation Program",
-      "description": "Fostering creativity through innovative technologies...",
-      "date": "2024-02-15",
-      "event": "Innovation Program",
-      "btn": "Read More"
-    },
-    {
-      "title": "Niger Fablab Innovation Program",
-      "description": "Fostering creativity through innovative technologies...",
-      "date": "2024-02-15",
-      "event": "Innovation Program",
-      "btn": "Read More"
-    },
-    {
-      "title": "Niger Fablab Innovation Program",
-      "description": "Fostering creativity through innovative technologies...",
-      "date": "2024-02-15",
-      "event": "Innovation Program",
-      "btn": "Read More"
-    },
-    {
-      "title": "Niger Fablab Innovation Program",
-      "description": "Fostering creativity through innovative technologies...",
-      "date": "2024-02-15",
-      "event": "Innovation Program",
-      "btn": "Read More"
-    },
-    {
-      "title": "Niger Fablab Innovation Program",
-      "description": "Fostering creativity through innovative technologies...",
-      "date": "2024-02-15",
-      "event": "Innovation Program",
-      "btn": "Read More"
-    }
-  ],
+  "blogPosts": {
+  "niLabBlog001": {
+    "title": "Niger Fablab Innovation Program",
+    "description": "Fostering creativity through innovative technologies...",
+    "date": "2024-02-15",
+    "event": "Innovation Program"
+  },
+  "niLabBlog002": {
+    "title": "Fablab Youth Tech Workshop",
+    "description": "Empowering youth with hands-on tech skills...",
+    "date": "2024-01-20",
+    "event": "Youth Tech Workshop"
+  },
+  "niLabBlog003": {
+    "title": "Fablab Maker Challenge",
+    "description": "Showcasing creative projects from local makers...",
+    "date": "2023-12-10",
+    "event": "Maker Challenge"
+  },
+  "niLabBlog004": {
+    "title": "Niger Fablab Innovation Program",
+    "description": "Fostering creativity through innovative technologies...",
+    "date": "2023-11-15",
+    "event": "Innovation Program"
+  },
+  "niLabBlog005": {
+    "title": "Fablab Youth Tech Workshop",
+    "description": "Empowering youth with hands-on tech skills...",
+    "date": "2023-10-25",
+    "event": "Youth Tech Workshop"
+  },
+  "niLabBlog006": {
+    "title": "Fablab Maker Challenge",
+    "description": "Showcasing creative projects from local makers...",
+    "date": "2023-09-15",
+    "event": "Maker Challenge"
+  },
+  "niLabBlog007": {
+    "title": "Niger Fablab Innovation Program",
+    "description": "Fostering creativity through innovative technologies...",
+    "date": "2023-08-10",
+    "event": "Innovation Program"
+  },
+  "niLabBlog008": {
+    "title": "Fablab Youth Tech Workshop",
+    "description": "Empowering youth with hands-on tech skills...",
+    "date": "2023-07-20",
+    "event": "Youth Tech Workshop"
+  },
+  "niLabBlog009": {
+    "title": "Fablab Maker Challenge",
+    "description": "Showcasing creative projects from local makers...",
+    "date": "2023-06-15",
+    "event": "Maker Challenge"
+  },
+  "niLabBlog0010": {
+    "title": "Niger Fablab Innovation Program",
+    "description": "Fostering creativity through innovative technologies...",
+    "date": "2023-05-10",
+    "event": "Innovation Program"
+  },
+  "niLabBlog0011": {
+    "title": "Fablab Youth Tech Workshop",
+    "description": "Empowering youth with hands-on tech skills...",
+    "date": "2023-04-20",
+    "event": "Youth Tech Workshop"
+  },
+  "niLabBlog0012": {
+    "title": "Fablab Maker Challenge",
+    "description": "Showcasing creative projects from local makers...",
+    "date": "2023-03-15",
+    "event": "Maker Challenge"
+  },
+  "niLabBlog0013": {
+    "title": "Niger Fablab Innovation Program",
+    "description": "Fostering creativity through innovative technologies...",
+    "date": "2023-02-10",
+    "event": "Innovation Program"
+  },
+  "niLabBlog0014": {
+    "title": "Fablab Youth Tech Workshop",
+    "description": "Empowering youth with hands-on tech skills...",
+    "date": "2023-01-20",
+    "event": "Youth Tech Workshop"
+  },
+  "niLabBlog0015": {
+    "title": "Fablab Maker Challenge",
+    "description": "Showcasing creative projects from local makers...",
+    "date": "2023-01-10",
+    "event": "Maker Challenge"
+  },
+  "niLabBlog0016": {
+    "title": "Niger Fablab Innovation Program",
+    "description": "Fostering creativity through innovative technologies...",
+    "date": "2022-12-15",
+    "event": "Innovation Program"
+  },
+  "niLabBlog0017": {
+    "title": "Fablab Youth Tech Workshop",
+    "description": "Empowering youth with hands-on tech skills...",
+    "date": "2022-11-25",
+    "event": "Youth Tech Workshop"
+  },
+  "niLabBlog0018": {
+    "title": "Fablab Maker Challenge",
+    "description": "Showcasing creative projects from local makers...",
+    "date": "2022-10-10",
+    "event": "Maker Challenge"
+  }
+},
+
   "ContactUsPage": {
     "title": "Connect With Us"
   },

@@ -2,16 +2,20 @@
 import React, { useState } from 'react';
 import HeroSection from '../../components/HeroBlog';
 import BlogSearchBar from '../../components/BlogSearch';
-import blogs from '../../data/blog'
+import  { getBlogPosts } from '../../data/blog'
 import BlogCard from '../../components/BlogCard';
+import { useTranslations } from 'next-intl';
 
 
 
 
 export default function Page() {
-
+  const t = useTranslations('BlogPageSection1')
+  const tBtn = useTranslations('Btn')
   const [visibleCount, setVisibleCount] = useState<number>(6);
 
+
+  const blogs = getBlogPosts();
   // Function to load 6 more blogs
   const loadMoreBlogs = () => {
     setVisibleCount((prevCount) => prevCount + 6);
@@ -22,7 +26,7 @@ export default function Page() {
 
       <HeroSection />
       <div>
-      <h1 className="text-3xl md:text-6xl font-bold text-[#084029] text-center my-6 md:my-12">Our Blog</h1>
+      <h1 className="text-3xl md:text-6xl font-bold text-[#084029] text-center my-6 md:my-12"> {t('title')} </h1>
       </div>
       <BlogSearchBar />
 
@@ -53,7 +57,7 @@ export default function Page() {
                        hover:bg-orange-700 focus:outline-none focus:ring-2 focus:ring-orange-700 focus:ring-opacity-50 
                        transform hover:scale-110"
           >
-            Load Older Blogs
+            {tBtn('btnLoadOlderBlogs')}
           </button>
         </div>
       )}
