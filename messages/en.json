@@ -117,6 +117,7 @@
   "Btn": {
     "btnSeeAll": "See all the project",
     "btnLoadMore": "Load More",
+    "readMore": "Read More",
     "btnLoadOlderBlogs": "Load Older Blogs",
     "btnApply": "Join Us",
     "linkProgram": "Explore Our Research"
@@ -230,6 +231,30 @@
     "message": "Message",
     "btn": "Submit"
   },
+  "teamMembers": {
+    "sofiane": {
+      "name": "Sofiane",
+      "position": "Lead Developer",
+      "bio": "Sofiane is a talented developer with a passion for creating innovative solutions...",
+      "story": "With years of experience...",
+      "quote": "Innovation is the key to success."
+    },
+    "maya": {
+      "name": "Maya",
+      "position": "UI/UX Designer",
+      "bio": "Maya is a creative designer with a keen eye for detail...",
+      "story": "Maya's journey in design...",
+      "quote": "Design is not just what it looks like..."
+    },
+    "ali": {
+      "name": "Ali",
+      "position": "Project Manager",
+      "bio": "Ali is a project manager with a knack for organization and strategy...",
+      "story": "After studying business...",
+      "quote": "Good management is about..."
+    }
+  },
+  
   "footer": {
     "slogan": "Innovating Locally, Empowering Globally",
     "contactLink": "Contact Us",

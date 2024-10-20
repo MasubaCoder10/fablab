@@ -26,12 +26,14 @@
     }
   ],
   "Btn": {
-    "btnSeeAll": "See all the project",
-    "btnLoadMore": "Load More",
-    "btnLoadOlderBlogs": "Load Older Blogs",
-    "btnApply": "Rejoignez-Nous",
-    "linkProgram": "Explorez Nos Recherches"
-  },
+  "btnSeeAll": "Voir tous les projets",
+  "btnLoadMore": "Voir plus",
+  "readMore": "Lire plus",
+  "btnLoadOlderBlogs": "Charger les anciens blogs",
+  "btnApply": "Rejoignez-nous",
+  "linkProgram": "Explorez nos recherches"
+},
+
   "ReseachPageSectionCard1": {
   "title": "Projets Actuels",
   "description": "Nos recherches se concentrent sur l'utilisation de la technologie pour répondre aux besoins locaux au Niger.",
@@ -77,6 +79,30 @@
   "titlePartner": "Nos Partenaires",
   "titleTeam": "Rencontrez notre équipe dirigeante"
 },
+"teamMembers": {
+  "sofiane": {
+    "name": "Sofiane",
+    "position": "Développeur Principal",
+    "bio": "Sofiane est un développeur talentueux avec une passion pour créer des solutions innovantes...",
+    "story": "Avec des années d'expérience...",
+    "quote": "L'innovation est la clé du succès."
+  },
+  "maya": {
+    "name": "Maya",
+    "position": "Designer UI/UX",
+    "bio": "Maya est une designer créative avec un œil attentif aux détails...",
+    "story": "Le parcours de Maya dans le design...",
+    "quote": "Le design n'est pas seulement ce à quoi il ressemble..."
+  },
+  "ali": {
+    "name": "Ali",
+    "position": "Chef de Projet",
+    "bio": "Ali est un chef de projet doté d'un talent pour l'organisation et la stratégie...",
+    "story": "Après des études en gestion des affaires...",
+    "quote": "Une bonne gestion consiste à..."
+  }
+},
+
 
   "footer": {
   "slogan": "Innover Localement, impacter mondialement",

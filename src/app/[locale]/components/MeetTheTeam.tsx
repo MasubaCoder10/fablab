@@ -2,15 +2,69 @@
 import Image from 'next/image';
 import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
-import teamMembers from '../data/teamMembers'
 import { useTranslations } from 'next-intl';
-
+import imKeita from '../../../assets/images/MK.jpg'
 
 
 const MeetTheTeam: React.FC = () => {
   const [visibleTeamCount, setVisibleTeamCount] = useState(3);
   const router = useRouter();
   const t = useTranslations('AboutUsPageSection3');
+  const tt = useTranslations('teamMembers');
+  const tBtn = useTranslations('Btn');
+console.log('tt', tt('sofiane.position'))
+  const teamMembers = [
+    {
+      id: 1,
+      name: 'Mamadou K. KEITA',
+      position: tt('sofiane.position'),
+      bio: tt('sofiane.bio'),
+      story: tt('sofiane.story'),
+      quote: tt('sofiane.quote'),
+      linkFacebook:"#",
+      linkLinkdin:"#",
+      linkTwitter:"#",
+      image: imKeita,
+    },
+    {
+      id: 2,
+      name: 'Mamadou K. KEITA',
+      position: tt('maya.position'),
+      bio: tt('maya.bio'),
+      story: tt('maya.story'),
+      quote: tt('maya.quote'),
+      linkFacebook:"#",
+      linkLinkdin:"#",
+      linkTwitter:"#",
+      image: imKeita,
+    },
+    {
+      id: 3,
+      name: 'Mamadou K. KEITA',
+      position: tt('ali.position'),
+      bio: tt('ali.bio'),
+      story: tt('ali.story'),
+      quote: tt('ali.quote'),
+      linkFacebook:"#",
+      linkLinkdin:"#",
+      linkTwitter:"#",
+      image: imKeita,
+    },   
+    {
+      id: 4,
+      name: 'Mamadou K. KEITA',
+      position: tt('ali.position'),
+      bio: tt('ali.bio'),
+      story: tt('ali.story'),
+      quote: tt('ali.quote'),
+      linkFacebook:"#",
+      linkLinkdin:"#",
+      linkTwitter:"#",
+      image: imKeita,
+    },
+    
+  ];
+
   const handleLoadMore = () => {
     setVisibleTeamCount((prevCount) => prevCount + 2);
   };
@@ -19,7 +73,7 @@ const MeetTheTeam: React.FC = () => {
     // Navigate to the dynamic profile page
     router.push(`/about/${id}`);
   };
-
+  const teamMembers1 = tt('teamMembers', { returnObjects: true });
   return (
     <section className="relative py-12 text-white">
       {/* Gradient Overlay */}
@@ -50,7 +104,7 @@ const MeetTheTeam: React.FC = () => {
                   onClick={() => handleLearnMore(member.id)}
                   className="absolute bottom-4 left-1/2 transform -translate-x-1/2 border border-[#BFD3E3] bg-orange-600 text-white py-2 px-4 rounded-full font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                 >
-                  Learn More
+                  {tBtn('readMore')}
                 </button>
               </div>
             </div>
@@ -64,7 +118,7 @@ const MeetTheTeam: React.FC = () => {
               onClick={handleLoadMore}
               className="bg-orange-500 text-black py-2 px-6 rounded-full font-bold hover:bg-orange-600 transition duration-300"
             >
-              Load More
+              {tBtn('btnLoadMore')}
             </button>
           </div>
         )}
