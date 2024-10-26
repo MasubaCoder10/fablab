@@ -16,7 +16,7 @@ const OngoingProjectDetails = () => {
     const projectIntel = 'Feriji1AFrench-ZarmaParallelCorpus0Glossary%26Translator' === params.CurrentProjectPublication;
     const project = ongoingProjects.find((project) => project.id === parseInt(params.CurrentProjectPublication));
     const projectFar = ongoingProjectFar.find((project) => project.id === parseInt(params.CurrentProjectPublication));
-    const selectedProject = project || projectFar || projectIntel;
+    const selectedProject =  projectFar || project  || projectIntel;
     if (!selectedProject) {
         return <p className='my-40 text-center'>ongoing Projects not found</p>;
     }
@@ -31,10 +31,6 @@ const researchTopics = t('ReseachPageSectionCard1.researchTopics', { returnObjec
     // Ensure that 'authors' is an array
     const authorArray = Array.isArray(authors) ? authors : [];
     const researchTopicArray = Array.isArray(researchTopics) ? researchTopics : [];
-    console.log('authorArray', authorArray)
-    console.log('researchTopicArray', researchTopicArray)
-    console.log(t('authors', { returnObjects: true }));
-console.log(t('researchTopics', { returnObjects: true }));
 
     return (
         <div className='bg-gray-100'>

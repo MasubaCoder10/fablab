@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import { FaArrowRight } from 'react-icons/fa';
 import { useRouter } from 'next/navigation';
+import { useTranslations } from 'next-intl';
 
 interface BlogCardProps {
   imageSrc: any;
@@ -14,6 +15,7 @@ interface BlogCardProps {
 
 const BlogCard: React.FC<BlogCardProps> = ({ imageSrc, title, description, date, event, id }) => {
   const Router = useRouter();
+  const t = useTranslations('Btn')
   const handleLearnMore = (id: string) => {
     Router.push(`/blog/${id}`)
   }
@@ -40,7 +42,7 @@ const BlogCard: React.FC<BlogCardProps> = ({ imageSrc, title, description, date,
             className="text-orange-600 font-semibold relative underline underline-offset-4 transition-transform duration-300 ease-in-out 
                        hover:text-orange-600 focus:ring-2 focus:ring-[#001A40] focus:ring-opacity-50 flex items-center"
           >
-            Read More
+            {t('readMore')}
             <FaArrowRight className="ml-2 transition-transform duration-300 ease-in-out group-hover:translate-x-1" />
           </button>
           
