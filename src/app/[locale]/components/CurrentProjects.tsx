@@ -4,8 +4,8 @@ import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Image from 'next/image';
 import { FaArrowRight } from 'react-icons/fa';
-import { ongoingProjectFar } from '../data/ongoingProjects';
-import { ongoingProjects } from '../data/ongoingProjects'
+import { ongoingProjectFar } from '../data/OngoingProjects';
+import { ongoingProjects } from '../data/OngoingProjects'
 import { useTranslations } from 'next-intl';
 import imgFajir from '../../../assets/images/Fajir.webp'
 

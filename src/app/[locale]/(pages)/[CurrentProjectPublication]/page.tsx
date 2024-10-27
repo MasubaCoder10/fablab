@@ -1,7 +1,9 @@
 // pages/team/[id].tsx
 'use client';
 import { useParams, useRouter } from 'next/navigation';
-import { ongoingProjects, ongoingProjectFar } from '../../data/ongoingProjects';
+import { OngoingProjects } from '../../data/ongoingProjects';
+import {  OngoingProjectsFar } from '../../data/OngoingProjectFar';
+
 import { FaArrowLeft } from 'react-icons/fa';
 import HeroSection from '@/src/app/[locale]/components/Hero2';
 import { FaDownload } from 'react-icons/fa';
@@ -12,7 +14,8 @@ const OngoingProjectDetails = () => {
     const router = useRouter()
     const t = useTranslations('ReseachPageSectionCard1');
 
-
+    const ongoingProjects = OngoingProjects();
+    const ongoingProjectFar = OngoingProjectsFar();
     const projectIntel = 'Feriji1AFrench-ZarmaParallelCorpus0Glossary%26Translator' === params.CurrentProjectPublication;
     const project = ongoingProjects.find((project) => project.id === parseInt(params.CurrentProjectPublication));
     const projectFar = ongoingProjectFar.find((project) => project.id === parseInt(params.CurrentProjectPublication));
