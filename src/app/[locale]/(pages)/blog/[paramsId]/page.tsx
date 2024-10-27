@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import {useParams, useRouter} from 'next/navigation';
 import HeroSection from '../../../components/HeroBlog';
-import getBlogPosts from '../../../data/blog';
+import getBlogPosts from '../../../data/GetBlogPosts';
 import { useTranslations } from 'next-intl';
 
 

@@ -1,7 +1,7 @@
 // pages/team/[id].tsx
 'use client';
 import { useParams, useRouter } from 'next/navigation';
-import { getTeamMembers } from '../../../data/teamMembers';
+import { getTeamMembers } from '../../../data/GetTeamMembers';
 import Image from 'next/image';
 import Link from 'next/link';
 import { FaFacebook, FaLinkedin, FaInstagram, FaTwitter, } from 'react-icons/fa';

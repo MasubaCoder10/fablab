@@ -2,7 +2,7 @@
 import { useTranslations } from 'next-intl';
 import imKeita from '../../../assets/images/MK.jpg'
 
-export function getTeamMembers() {
+export function GetTeamMembers() {
   const tt = useTranslations('teamMembers');
 
   return [
@@ -57,4 +57,4 @@ export function getTeamMembers() {
   ];
 }
 
-export default getTeamMembers;
+export default GetTeamMembers;

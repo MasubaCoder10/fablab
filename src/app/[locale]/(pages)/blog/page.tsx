@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import HeroSection from '../../components/HeroBlog';
 import BlogSearchBar from '../../components/BlogSearch';
-import  { getBlogPosts } from '../../data/blog'
+import  { getBlogPosts } from '../../data/GetBlogPosts'
 import BlogCard from '../../components/BlogCard';
 import { useTranslations } from 'next-intl';
 

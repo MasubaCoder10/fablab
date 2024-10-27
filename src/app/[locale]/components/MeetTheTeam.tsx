@@ -3,7 +3,7 @@ import Image from 'next/image';
 import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { useTranslations } from 'next-intl';
-import getTeamMembers  from '../data/teamMembers'
+import getTeamMembers  from '../data/GetTeamMembers'
 
 const MeetTheTeam: React.FC = () => {
   const [visibleTeamCount, setVisibleTeamCount] = useState(3);

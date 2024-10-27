@@ -1,6 +1,6 @@
 import { useTranslations } from 'next-intl';
 
-export function getBlogPosts() {
+export function GetBlogPosts() {
   const tt = useTranslations('blogPosts');
 
   return [
@@ -142,4 +142,4 @@ export function getBlogPosts() {
     },
   ];
 }
-export default getBlogPosts;
+export default GetBlogPosts;
