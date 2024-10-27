@@ -1,7 +1,7 @@
 // pages/team/[id].tsx
 'use client';
 import { useParams, useRouter } from 'next/navigation';
-import { getTeamMembers } from '../../../data/GetTeamMembers';
+import { GetTeamMembers } from '../../../data/GetTeamMembers';
 import Image from 'next/image';
 import Link from 'next/link';
 import { FaFacebook, FaLinkedin, FaInstagram, FaTwitter, } from 'react-icons/fa';
@@ -13,7 +13,7 @@ const TeamMemberDetails = () => {
   const router = useRouter()
   const t = useTranslations('Btn');
 
-  const teamMembers = getTeamMembers();
+  const teamMembers = GetTeamMembers();
   // Find the team member by id
   const member = teamMembers.find((member) => member.id === parseInt(params.id));
 

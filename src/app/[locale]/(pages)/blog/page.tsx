@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import HeroSection from '../../components/HeroBlog';
 import BlogSearchBar from '../../components/BlogSearch';
-import  { getBlogPosts } from '../../data/GetBlogPosts'
+import  { GetBlogPosts } from '../../data/GetBlogPosts'
 import BlogCard from '../../components/BlogCard';
 import { useTranslations } from 'next-intl';
 
@@ -15,7 +15,7 @@ export default function Page() {
   const [visibleCount, setVisibleCount] = useState<number>(6);
 
 
-  const blogs = getBlogPosts();
+  const blogs = GetBlogPosts();
   // Function to load 6 more blogs
   const loadMoreBlogs = () => {
     setVisibleCount((prevCount) => prevCount + 6);
