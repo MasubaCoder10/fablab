@@ -12,7 +12,13 @@ const MeetTheTeam: React.FC = () => {
   const tt = useTranslations('teamMembers');
   const tBtn = useTranslations('Btn');
 
- 
+  const truncateText = (text: string, wordLimit: number): string => {
+    const words = text.split(' ');
+    if (words.length > wordLimit) {
+        return words.slice(0, wordLimit).join(' ') + '...';
+    }
+    return text;
+};
   const teamMembers = getTeamMembers();
 
   const handleLoadMore = () => {
@@ -47,7 +53,7 @@ const MeetTheTeam: React.FC = () => {
                 />
                 <h3 className="text-xl font-semibold text-orange-600">{member.name}</h3>
                 <p className="text-sm text-[#084029] group-hover:text-white">{member.position}</p>
-                <p className="text-center mt-3  text-gray-900 group-hover:text-white ">{member.bio}</p>
+                <p className="text-center mt-3  text-gray-900 group-hover:text-white ">{truncateText(member.bio, 10) }</p>
 
                 {/* Learn More button that shows up on hover */}
                 <button

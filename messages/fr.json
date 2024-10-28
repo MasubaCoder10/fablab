@@ -2,7 +2,7 @@
   "navBar": {
     "research": "Recherche",
     "contac": "Contact",
-    "blog": "Blog",
+    "blog": "Outils",
     "aboutus": "A propos"
   },
   "hero1": [
@@ -29,6 +29,7 @@
   "btnSeeAll": "Voir tous les projets",
   "btnLoadMore": "Voir plus",
   "readMore": "Lire plus",
+  "check": "Voir",
   "backToTeam": "Retour à l'équipe",
   "btnLoadOlderBlogs": "Voir les anciens blogs",
   "btnApply": "Rejoignez-nous",
@@ -104,123 +105,28 @@
   }
 },
 "BlogPageHero": {
-  "title": "Articles NILAB",
+  "title": "Nos Outils && Innovations",
   "bio": "Innover localement, impacter mondialement."
 },
 "BlogPageSection1": {
-  "title": "Notre Blog",
+  "title": "Nos Outils",
   "searchBlog": "Rechercher des blogs..."
 },
 "blogPosts": {
   "niLabBlog001": {
-    "title": "Programme d'Innovation Niger Fablab",
-    "description": "Favoriser la créativité à travers des technologies innovantes...",
-    "date": "2024-02-15",
-    "event": "Programme d'Innovation"
+    "title": "Traducteur Zarma français",
+    "description": "Le premier traducteur Zarma français."
   },
   "niLabBlog002": {
-    "title": "Atelier Tech Jeunesse Fablab",
-    "description": "Autonomiser les jeunes avec des compétences technologiques pratiques...",
-    "date": "2024-01-20",
-    "event": "Atelier Tech Jeunesse"
+    "title": "GEC ZARMA",
+    "description": "Outil de correction des erreurs grammaticales."
   },
   "niLabBlog003": {
-    "title": "Défi Maker Fablab",
-    "description": "Mise en avant de projets créatifs de créateurs locaux...",
-    "date": "2023-12-10",
-    "event": "Défi Maker"
-  },
-  "niLabBlog004": {
-    "title": "Programme d'Innovation Niger Fablab",
-    "description": "Favoriser la créativité à travers des technologies innovantes...",
-    "date": "2023-11-15",
-    "event": "Programme d'Innovation"
-  },
-  "niLabBlog005": {
-    "title": "Atelier Tech Jeunesse Fablab",
-    "description": "Autonomiser les jeunes avec des compétences technologiques pratiques...",
-    "date": "2023-10-25",
-    "event": "Atelier Tech Jeunesse"
-  },
-  "niLabBlog006": {
-    "title": "Défi Maker Fablab",
-    "description": "Mise en avant de projets créatifs de créateurs locaux...",
-    "date": "2023-09-15",
-    "event": "Défi Maker"
-  },
-  "niLabBlog007": {
-    "title": "Programme d'Innovation Niger Fablab",
-    "description": "Favoriser la créativité à travers des technologies innovantes...",
-    "date": "2023-08-10",
-    "event": "Programme d'Innovation"
-  },
-  "niLabBlog008": {
-    "title": "Atelier Tech Jeunesse Fablab",
-    "description": "Autonomiser les jeunes avec des compétences technologiques pratiques...",
-    "date": "2023-07-20",
-    "event": "Atelier Tech Jeunesse"
-  },
-  "niLabBlog009": {
-    "title": "Défi Maker Fablab",
-    "description": "Mise en avant de projets créatifs de créateurs locaux...",
-    "date": "2023-06-15",
-    "event": "Défi Maker"
-  },
-  "niLabBlog0010": {
-    "title": "Programme d'Innovation Niger Fablab",
-    "description": "Favoriser la créativité à travers des technologies innovantes...",
-    "date": "2023-05-10",
-    "event": "Programme d'Innovation"
-  },
-  "niLabBlog0011": {
-    "title": "Atelier Tech Jeunesse Fablab",
-    "description": "Autonomiser les jeunes avec des compétences technologiques pratiques...",
-    "date": "2023-04-20",
-    "event": "Atelier Tech Jeunesse"
-  },
-  "niLabBlog0012": {
-    "title": "Défi Maker Fablab",
-    "description": "Mise en avant de projets créatifs de créateurs locaux...",
-    "date": "2023-03-15",
-    "event": "Défi Maker"
-  },
-  "niLabBlog0013": {
-    "title": "Programme d'Innovation Niger Fablab",
-    "description": "Favoriser la créativité à travers des technologies innovantes...",
-    "date": "2023-02-10",
-    "event": "Programme d'Innovation"
-  },
-  "niLabBlog0014": {
-    "title": "Atelier Tech Jeunesse Fablab",
-    "description": "Autonomiser les jeunes avec des compétences technologiques pratiques...",
-    "date": "2023-01-20",
-    "event": "Atelier Tech Jeunesse"
-  },
-  "niLabBlog0015": {
-    "title": "Défi Maker Fablab",
-    "description": "Mise en avant de projets créatifs de créateurs locaux...",
-    "date": "2023-01-10",
-    "event": "Défi Maker"
-  },
-  "niLabBlog0016": {
-    "title": "Programme d'Innovation Niger Fablab",
-    "description": "Favoriser la créativité à travers des technologies innovantes...",
-    "date": "2022-12-15",
-    "event": "Programme d'Innovation"
-  },
-  "niLabBlog0017": {
-    "title": "Atelier Tech Jeunesse Fablab",
-    "description": "Autonomiser les jeunes avec des compétences technologiques pratiques...",
-    "date": "2022-11-25",
-    "event": "Atelier Tech Jeunesse"
-  },
-  "niLabBlog0018": {
-    "title": "Défi Maker Fablab",
-    "description": "Mise en avant de projets créatifs de créateurs locaux...",
-    "date": "2022-10-10",
-    "event": "Défi Maker"
+    "title": "Contenus créés par IA en Zarma",
+    "description": "Contenus générés par IA en Zarma."
   }
 },
+
 
 
   "footer": {

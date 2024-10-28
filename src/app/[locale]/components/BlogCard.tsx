@@ -3,17 +3,16 @@ import Image from 'next/image';
 import { FaArrowRight } from 'react-icons/fa';
 import { useRouter } from 'next/navigation';
 import { useTranslations } from 'next-intl';
+import Link from 'next/link';
 
 interface BlogCardProps {
   imageSrc: any;
   title: string;
   description: string;
-  date: string;
-  event: string;
-  id:string
+  link:string
 }
 
-const BlogCard: React.FC<BlogCardProps> = ({ imageSrc, title, description, date, event, id }) => {
+const BlogCard: React.FC<BlogCardProps> = ({ imageSrc, title, description, link }) => {
   const Router = useRouter();
   const t = useTranslations('Btn')
   const handleLearnMore = (id: string) => {
@@ -21,7 +20,7 @@ const BlogCard: React.FC<BlogCardProps> = ({ imageSrc, title, description, date,
   }
   return (
     <div className="bg-white shadow-2xl flex flex-col overflow-hidden group">
-      <div className="relative h-48 overflow-hidden">
+      <div className="relative h-52 overflow-hidden">
         <Image
           src={imageSrc}
           alt={title}
@@ -34,17 +33,16 @@ const BlogCard: React.FC<BlogCardProps> = ({ imageSrc, title, description, date,
         <h3 className="text-xl font-bold text-[#084029] mb-2">{title}</h3>
         <p className="text-gray-600 text-sm mb-4">{description}</p>
         <div className="mt-auto border-t border-gray-200 pt-4">
-          <p className="text-sm text-gray-500">{date}</p>
-          <p className="text-sm font-semibold text-[#084029] mb-3">{event}</p>
           
-          <button
-          onClick={()=> handleLearnMore(id)}
+          
+          <Link
+          href={link}
             className="text-orange-600 font-semibold relative underline underline-offset-4 transition-transform duration-300 ease-in-out 
-                       hover:text-orange-600 focus:ring-2 focus:ring-[#001A40] focus:ring-opacity-50 flex items-center"
+                       hover:text-orange-600  flex items-center"
           >
-            {t('readMore')}
+            {t('check')}
             <FaArrowRight className="ml-2 transition-transform duration-300 ease-in-out group-hover:translate-x-1" />
-          </button>
+          </Link>
           
          
         </div>

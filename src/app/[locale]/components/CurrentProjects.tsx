@@ -4,14 +4,16 @@ import React, { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Image from 'next/image';
 import { FaArrowRight } from 'react-icons/fa';
-import { ongoingProjectFar } from '../data/OngoingProjects';
-import { ongoingProjects } from '../data/OngoingProjects'
+import { OngoingProjectsFar } from '../data/OngoingProjectFar';
+import { OngoingProjects } from '../data/OngoingProjects'
 import { useTranslations } from 'next-intl';
 import imgFajir from '../../../assets/images/Fajir.webp'
 
 const CurrentProjects: React.FC = () => {
     const t = useTranslations('ReseachPageSectionCard1');
 
+    const projects = OngoingProjects()
+    const projectFar = OngoingProjectsFar()
     const router = useRouter();
     const handleLearnMore = (id: number) => {
         // Navigate to the dynamic profile page
@@ -75,7 +77,7 @@ const CurrentProjects: React.FC = () => {
 
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    {ongoingProjects.map((project, index) => (
+                    {projects.map((project, index) => (
                         <div key={index} className="bg-white shadow-2xl overflow-hidden flex flex-col">
                             <div className="relative h-48 overflow-hidden">
                                 <Image

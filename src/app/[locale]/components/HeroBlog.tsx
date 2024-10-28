@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Image from 'next/image';
+import innovation from '../../../assets/images/innovation.jpg'
 import { useTranslations } from 'next-intl';
 export default function HeroSection() {
   const t = useTranslations('BlogPageHero')
@@ -9,7 +10,7 @@ export default function HeroSection() {
     <section className="relative h-[80vh] flex items-center justify-center text-center bg-cover bg-center">
       <div className="absolute inset-0">
         <Image 
-          src="https://t4.ftcdn.net/jpg/01/22/56/35/360_F_122563557_xQh0kIwEo7vaA9H9iRLaPdRZn3VL8AZv.jpg" 
+          src={innovation} 
           alt="Hero Image" 
           layout="fill" 
           objectFit="cover" 
@@ -25,7 +26,7 @@ export default function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
-          {t('title')}
+         
         </motion.h1>
         <motion.p
           className="mt-4 text-xl md:text-2xl text-gray-200"
@@ -33,7 +34,7 @@ export default function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.5 }}
         >
-          {t('bio')}
+         
         </motion.p>
        
       </div>

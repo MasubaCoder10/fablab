@@ -28,7 +28,7 @@ export default function Page() {
       <div>
       <h1 className="text-3xl md:text-6xl font-bold text-[#084029] text-center my-6 md:my-12"> {t('title')} </h1>
       </div>
-      <BlogSearchBar />
+      
 
       <section className="max-w-7xl mx-auto px-4 py-12">
       
@@ -38,12 +38,11 @@ export default function Page() {
         {blogs.slice(0, visibleCount).map((blog) => (
           <BlogCard
             key={blog.id}
-            id={blog.id}
+            link={blog.link}
             imageSrc={blog.imageSrc}
             title={blog.title}
             description={blog.description}
-            date={blog.date}
-            event={blog.event}
+            
           />
         ))}
       </div>

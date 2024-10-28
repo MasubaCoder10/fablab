@@ -2,7 +2,7 @@
   "navBar": {
     "research": "Research",
     "contac": "Contact us",
-    "blog": "Blog",
+    "blog": "Tools",
     "aboutus": "About us"
   },
   "hero1": [
@@ -118,6 +118,7 @@
     "btnSeeAll": "See all the project",
     "btnLoadMore": "Load More",
     "readMore": "Read More",
+    "check": "Check",
     "backToTeam": "Back to Team",
     "btnLoadOlderBlogs": "Load Older Blogs",
     "btnApply": "Join Us",
@@ -172,121 +173,26 @@
     }
   ],
   "BlogPageHero": {
-    "title": "NILAB Articles",
+    "title": "Our Tools && Innovations",
     "bio": "Innovating Locally, Empowering Globally."
   },
   "BlogPageSection1": {
-    "title": "Our Blog",
+    "title": "Our Tools",
     "searchBlog": "Search blogs..."
   },
   "blogPosts": {
   "niLabBlog001": {
-    "title": "Niger Fablab Innovation Program",
-    "description": "Fostering creativity through innovative technologies...",
-    "date": "2024-02-15",
-    "event": "Innovation Program"
+    "title": "French Zarma translator ",
+    "description": "The first French Zarma translator."
   },
   "niLabBlog002": {
-    "title": "Fablab Youth Tech Workshop",
-    "description": "Empowering youth with hands-on tech skills...",
-    "date": "2024-01-20",
-    "event": "Youth Tech Workshop"
+    "title": "GEC ZARMA",
+    "description": "Grammatical error correction tool."
+    
   },
   "niLabBlog003": {
-    "title": "Fablab Maker Challenge",
-    "description": "Showcasing creative projects from local makers...",
-    "date": "2023-12-10",
-    "event": "Maker Challenge"
-  },
-  "niLabBlog004": {
-    "title": "Niger Fablab Innovation Program",
-    "description": "Fostering creativity through innovative technologies...",
-    "date": "2023-11-15",
-    "event": "Innovation Program"
-  },
-  "niLabBlog005": {
-    "title": "Fablab Youth Tech Workshop",
-    "description": "Empowering youth with hands-on tech skills...",
-    "date": "2023-10-25",
-    "event": "Youth Tech Workshop"
-  },
-  "niLabBlog006": {
-    "title": "Fablab Maker Challenge",
-    "description": "Showcasing creative projects from local makers...",
-    "date": "2023-09-15",
-    "event": "Maker Challenge"
-  },
-  "niLabBlog007": {
-    "title": "Niger Fablab Innovation Program",
-    "description": "Fostering creativity through innovative technologies...",
-    "date": "2023-08-10",
-    "event": "Innovation Program"
-  },
-  "niLabBlog008": {
-    "title": "Fablab Youth Tech Workshop",
-    "description": "Empowering youth with hands-on tech skills...",
-    "date": "2023-07-20",
-    "event": "Youth Tech Workshop"
-  },
-  "niLabBlog009": {
-    "title": "Fablab Maker Challenge",
-    "description": "Showcasing creative projects from local makers...",
-    "date": "2023-06-15",
-    "event": "Maker Challenge"
-  },
-  "niLabBlog0010": {
-    "title": "Niger Fablab Innovation Program",
-    "description": "Fostering creativity through innovative technologies...",
-    "date": "2023-05-10",
-    "event": "Innovation Program"
-  },
-  "niLabBlog0011": {
-    "title": "Fablab Youth Tech Workshop",
-    "description": "Empowering youth with hands-on tech skills...",
-    "date": "2023-04-20",
-    "event": "Youth Tech Workshop"
-  },
-  "niLabBlog0012": {
-    "title": "Fablab Maker Challenge",
-    "description": "Showcasing creative projects from local makers...",
-    "date": "2023-03-15",
-    "event": "Maker Challenge"
-  },
-  "niLabBlog0013": {
-    "title": "Niger Fablab Innovation Program",
-    "description": "Fostering creativity through innovative technologies...",
-    "date": "2023-02-10",
-    "event": "Innovation Program"
-  },
-  "niLabBlog0014": {
-    "title": "Fablab Youth Tech Workshop",
-    "description": "Empowering youth with hands-on tech skills...",
-    "date": "2023-01-20",
-    "event": "Youth Tech Workshop"
-  },
-  "niLabBlog0015": {
-    "title": "Fablab Maker Challenge",
-    "description": "Showcasing creative projects from local makers...",
-    "date": "2023-01-10",
-    "event": "Maker Challenge"
-  },
-  "niLabBlog0016": {
-    "title": "Niger Fablab Innovation Program",
-    "description": "Fostering creativity through innovative technologies...",
-    "date": "2022-12-15",
-    "event": "Innovation Program"
-  },
-  "niLabBlog0017": {
-    "title": "Fablab Youth Tech Workshop",
-    "description": "Empowering youth with hands-on tech skills...",
-    "date": "2022-11-25",
-    "event": "Youth Tech Workshop"
-  },
-  "niLabBlog0018": {
-    "title": "Fablab Maker Challenge",
-    "description": "Showcasing creative projects from local makers...",
-    "date": "2022-10-10",
-    "event": "Maker Challenge"
+    "title": "AI Made contents in Zarma",
+    "description": "AI generated contents in Zarma"
   }
 },
 
@@ -301,25 +207,32 @@
   },
   "teamMembers": {
     "sofiane": {
-      "name": "Sofiane",
-      "position": "Lead Developer",
-      "bio": "Sofiane is a talented developer with a passion for creating innovative solutions...",
+      "name": "Keita",
+      "position": "Head of Research",
+      "bio": "...",
       "story": "With years of experience...",
-      "quote": "Innovation is the key to success."
+      "quote": "Innovating Locally, Empowering Globally."
     },
     "maya": {
-      "name": "Maya",
-      "position": "UI/UX Designer",
-      "bio": "Maya is a creative designer with a keen eye for detail...",
-      "story": "Maya's journey in design...",
-      "quote": "Design is not just what it looks like..."
+      "name": "Sofianou",
+      "position": "Head of software Engineering",
+      "bio": "As a dedicated Software Engineer at the nilab, I contribute to innovative projects by designing and developing software solutions that bridge technology with hands-on applications. My role involves leveraging my full-stack expertise to create scalable, efficient, and user-centered systems that enhance the fablab's offerings. Passionate about merging technical skill with creativity, I collaborate with a multidisciplinary team to bring ideas from concept to functional reality, ensuring each project meets the highest standards of quality and innovation. With a strong background in development and a commitment to continuous learning, I thrive on pushing the boundaries of what's possible in the fablab environment.",
+      "story": "As a dedicated Software Engineer at the nilab, I contribute to innovative projects by designing and developing software solutions that bridge technology with hands-on applications. My role involves leveraging my full-stack expertise to create scalable, efficient, and user-centered systems that enhance the nilab's offerings. Passionate about merging technical skill with creativity, I collaborate with a multidisciplinary team to bring ideas from concept to functional reality, ensuring each project meets the highest standards of quality and innovation. With a strong background in development and a commitment to continuous learning, I thrive on pushing the boundaries of what's possible in the nilab environment.",
+      "quote": "Code is my canvas, the nilab is my workshop. Here, creativity and logic meet to bring innovative ideas to life—one line of code at a time."
     },
     "ali": {
-      "name": "Ali",
-      "position": "Project Manager",
-      "bio": "Ali is a project manager with a knack for organization and strategy...",
+      "name": "Seydou Diallo",
+      "position": "Head of Robotics",
+      "bio": "As the Head of Robotics at the , I lead the charge in advancing our robotics projects, blending technical expertise with a visionary approach. My role involves guiding a talented team in the design, development, and implementation of cutting-edge robotic systems that push the boundaries of automation and AI integration. Passionate about exploring new technologies, I work to ensure that each project not only meets rigorous technical standards but also delivers real-world impact. I am committed to fostering an environment of innovation, continuous learning, and collaboration, making the nilab a hub for groundbreaking robotics research and application.",
       "story": "After studying business...",
-      "quote": "Good management is about..."
+      "quote": "Building the future, one robot at a time—where code meets mechanics, and innovation drives possibility."
+    },
+    "Christopher": {
+      "name": "Christopher Homan",
+      "position": "Principal Investigator",
+      "bio": "As the Head of Robotics at the nilab, I lead the charge in advancing our robotics projects, blending technical expertise with a visionary approach. My role involves guiding a talented team in the design, development, and implementation of cutting-edge robotic systems that push the boundaries of automation and AI integration. Passionate about exploring new technologies, I work to ensure that each project not only meets rigorous technical standards but also delivers real-world impact. I am committed to fostering an environment of innovation, continuous learning, and collaboration, making the nilab a hub for groundbreaking robotics research and application.",
+      "story": "After studying business...",
+      "quote": "Building the future, one robot at a time—where code meets mechanics, and innovation drives possibility."
     }
   },
   "ongoinProject":{

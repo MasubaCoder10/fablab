@@ -10,6 +10,7 @@ type TeamMemberProps = {
 };
 
 const TeamMember: React.FC<TeamMemberProps> = ({ name, position, image, story, quote }) => {
+ 
   return (
     <div className="relative bg-[#0A285F] rounded-lg shadow-lg p-6 hover:bg-[#001A40] transition duration-300 group">
       <div className="flex flex-col items-center">
