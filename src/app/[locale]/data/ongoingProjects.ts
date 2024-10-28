@@ -5,7 +5,7 @@ import { useTranslations } from 'next-intl';
 
 
 export function OngoingProjects() {
-  const t = useTranslations('ongoingProject');
+  const t = useTranslations('ongoinProject');
 
   return [
     {
