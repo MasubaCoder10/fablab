@@ -27,6 +27,11 @@
   ],
   "Btn": {
   "btnSeeAll": "Voir tous les projets",
+  "btnBackToReseach": "Retour à la Recherche",
+  "DownloadThePaper": "Télécharger le document",
+  "authors": "Auteurs",
+    "publisher": "Éditeur",
+    "researchTopics": "Sujets de recherche",
   "btnLoadMore": "Voir plus",
   "readMore": "Lire plus",
   "check": "Voir",
@@ -127,6 +132,30 @@
   }
 },
 
+"ongoinProject": {
+  "GEC_ZARMA_100": {
+    "title": "GEC ZARMA",
+    "date": "Octobre, 2024",
+    "description": "La correction des erreurs grammaticales (GEC) est essentielle pour améliorer les documents écrits, mais reste un défi pour les langues à faibles ressources comme le Zarma, parlé par plus de 5 millions de personnes en Afrique de l'Ouest. Cette étude compare les méthodes basées sur des règles, les modèles de traduction automatique (MT) et les grands modèles de langage (LLM) pour la GEC en Zarma. Nous évaluons l'efficacité de chaque approche sur notre ensemble de données de plus de 250 000 exemples, en utilisant des données synthétiques et annotées par des humains. Nos expériences montrent que l'approche basée sur la MT utilisant le modèle M2M100 surpasse les autres, atteignant un taux de détection de 95,82 % et une précision de suggestion de 78,90 % dans les évaluations automatiques, et obtenant un score de 3,0 sur 5,0 en correction logique/grammaticale lors des évaluations manuelles par des locuteurs natifs. La méthode basée sur des règles a atteint une détection parfaite (100 %) et une haute précision de suggestion (96,27 %) pour les corrections orthographiques, mais a eu des difficultés avec les erreurs au niveau contextuel. Les LLM comme MT5 small ont montré une performance modérée avec un taux de détection de 90,62 % et une précision de suggestion de 57,15 %. Notre travail met en évidence le potentiel des modèles MT pour améliorer la GEC dans les langues à faibles ressources, ouvrant la voie à des outils NLP plus inclusifs."
+  },
+  "Turing_101": {
+    "title": "Évaluation de la Détection Humaine et AI de Poésie Générée par AI : Un Test de Type Turing",
+    "date": "Octobre, 2024",
+    "description": "Alors que les modèles d'intelligence artificielle (IA) deviennent de plus en plus compétents dans la génération de textes ressemblant à ceux des humains, notamment dans des domaines créatifs comme la poésie, des préoccupations émergent quant à la distinction entre œuvres humaines et œuvres générées par IA. Dans cette étude, nous réalisons un test de type Turing pour évaluer si les évaluateurs humains peuvent différencier de manière fiable la poésie écrite par des humains de celle générée par IA. Nos résultats révèlent que les évaluateurs humains ont atteint une précision de détection élevée — plus de 95 % — avec un niveau de confiance élevé, distinguant efficacement la poésie générée par IA, même lorsque des modèles avancés comme GPT-4 produisaient des compositions sophistiquées. En revanche, les outils de détection d'IA tels que GPTZero et GPTID ont montré une efficacité limitée, avec des taux de précision inférieurs à 60 %. Ces résultats mettent en lumière les défis auxquels sont confrontés les outils de détection d'IA dans des contextes créatifs et soulignent l'importance du jugement humain dans l'écriture poétique."
+  },
+  "ASR_102": {
+    "title": "Jeu de Données ASR pour les Langues du Niger",
+    "date": "Octobre, 2024",
+    "description": "Nous visons à développer un jeu de données ASR de 20 heures pour 5 langues du Niger."
+  }
+},
+"ongoingProjectFar": {
+  "Feriji_1000": {
+    "title": "Feriji : Un Corpus Parallèle Français-Zarma, Glossaire & Traducteur",
+    "date": "Août, 2024",
+    "description": "La traduction automatique (MT) est un domaine en pleine expansion qui a connu des progrès significatifs ces dernières années avec le développement de modèles capables de traduire plusieurs langues avec une précision remarquable. Cependant, la représentation des langues africaines dans ce domaine doit encore être améliorée en raison des complexités linguistiques et des ressources limitées. Cela s'applique à la langue Zarma, un dialecte de Songhay (famille des langues nilo-sahariennes) parlé par plus de 5 millions de personnes au Niger et dans les pays voisins (Lewis et al., 2016). Cet article présente Feriji, le premier corpus parallèle robuste français-zarma et glossaire conçu pour la MT. Le corpus, contenant 61 085 phrases en Zarma et 42 789 en français, et un glossaire de 4 062 mots représentent une avancée significative pour répondre au besoin de davantage de ressources pour le Zarma. Nous ajustons trois grands modèles de langage sur notre ensemble de données, obtenant un score BLEU de 30,06 pour le modèle le plus performant. Nous évaluons également les modèles sur des jugements humains de fluidité, de compréhension et de lisibilité, ainsi que l'importance et l'impact du corpus et des modèles. Nos contributions aident à combler un fossé linguistique important et à promouvoir une langue africaine autochtone essentielle et souvent négligée."
+  }
+},
 
 
   "footer": {

@@ -11,6 +11,7 @@ import imgFajir from '../../../assets/images/Fajir.webp'
 
 const CurrentProjects: React.FC = () => {
     const t = useTranslations('ReseachPageSectionCard1');
+    const tBtn = useTranslations('Btn');
 
     const projects = OngoingProjects()
     const projectFar = OngoingProjectsFar()
@@ -20,7 +21,7 @@ const CurrentProjects: React.FC = () => {
         router.push(`/${id}`);
     };
     const handleLearnMoreFar = () => {
-        router.push(`/Feriji1AFrench-ZarmaParallelCorpus0Glossary&Translator`);
+        router.push(`/1000`);
     };
 
     const truncateText = (text: string, wordLimit: number): string => {
@@ -53,7 +54,7 @@ const CurrentProjects: React.FC = () => {
                             <button
                                 onClick={() => handleLearnMoreFar()}
                                 className="text-[#064f32] font-semibold relative underline underline-offset-4 transition-transform duration-300 ease-in-out 
-                                                    hover:text-[#064f32] focus:ring-2 focus:ring-[#064f32] focus:ring-opacity-50 flex items-center"
+                                                    hover:text-[#064f32]  flex items-center"
                             >
                                 {t('FistCardBtn')}
                                 <FaArrowRight className="ml-2 transition-transform duration-300 ease-in-out group-hover:translate-x-1" />
@@ -95,9 +96,9 @@ const CurrentProjects: React.FC = () => {
                                     <button
                                         onClick={() => handleLearnMore(project.id)}
                                         className="text-[#064f32] font-semibold relative underline underline-offset-4 transition-transform duration-300 ease-in-out 
-                                    hover:text-[#064f32] focus:ring-2 focus:ring-[#064f32] focus:ring-opacity-50 flex items-center"
+                                    hover:text-[#064f32] flex items-center"
                                     >
-                                        Read More
+                                        {t('FistCardBtn')}
                                         <FaArrowRight className="ml-2 transition-transform duration-300 ease-in-out group-hover:translate-x-1" />
                                     </button>
                                 </div>
@@ -113,7 +114,7 @@ const CurrentProjects: React.FC = () => {
                         className="inline-flex items-center mt-16 bg-orange-600 hover:bg-orange-500 text-white font-semibold py-2 px-4 rounded-lg shadow-lg transition duration-300"
                     >
 
-                        See all the project
+                        {tBtn('btnSeeAll')}
                     </a>
                 </div>
             </div>

@@ -9,7 +9,7 @@ export function OngoingProjectsFar() {
               id: 1000,
               title: tt('Feriji_1000.title'),
               date: tt('Feriji_1000.date'),
-            authors: ['Mamadou Keita', 'Elysabhete Ibrahim', ' Habibatou Alfari', 'Christopher Homan'],
+            authors: ['Mamadou Keita', 'Elysabhete Ibrahim', ' Habibatou Alfari', 'Christopher Homan', "Abdoulaye Hamani Sofianou",],
             publisher: ['Association for Computational Linguistics'],
             researchTopics: ['NLP', 'Low-Resource', 'Zarma'],
             description: tt('Feriji_1000.description'),
