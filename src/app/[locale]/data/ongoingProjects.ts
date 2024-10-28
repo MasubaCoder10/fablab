@@ -94,4 +94,4 @@ export function OngoingProjects() {
 
 
 
-  export default {OngoingProjects};
+export default OngoingProjects;

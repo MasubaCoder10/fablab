@@ -16,7 +16,7 @@
     "framer-motion": "^11.9.0",
     "headlessui": "^0.0.0",
     "heroicons": "^2.1.5",
-    "next": "14.2.7",
+    "next": "^14.2.16",
     "next-intl": "^3.19.4",
     "react": "^18",
     "react-dom": "^18",
