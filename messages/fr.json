@@ -87,28 +87,36 @@
   "titleTeam": "Rencontrez notre équipe dirigeante"
 },
 "teamMembers": {
-  "sofiane": {
-    "name": "Sofiane",
-    "position": "Développeur Principal",
-    "bio": "Sofiane est un développeur talentueux avec une passion pour créer des solutions innovantes...",
-    "story": "Avec des années d'expérience...",
-    "quote": "L'innovation est la clé du succès."
+    "sofiane": {
+      "name": "Keita",
+      "position": "Responsable de la recherche",
+      "bio": "...",
+      "story": "Avec des années d'expérience...",
+      "quote": "Innover localement, renforcer globalement."
+    },
+    "maya": {
+      "name": "Sofianou",
+      "position": "Responsable de l'ingénierie logicielle",
+      "bio": "En tant qu'ingénieure logicielle dévouée au nilab, je contribue à des projets innovants en concevant et développant des solutions logicielles qui allient technologie et applications concrètes. Mon rôle consiste à exploiter mon expertise full-stack pour créer des systèmes évolutifs, efficaces et centrés sur l'utilisateur, renforçant les offres du fablab. Passionnée par la fusion de la compétence technique et de la créativité, je collabore avec une équipe multidisciplinaire pour transformer des idées en réalités fonctionnelles, garantissant que chaque projet répond aux normes les plus élevées de qualité et d'innovation. Avec un solide bagage en développement et un engagement pour l'apprentissage continu, je m'épanouis en repoussant les limites du possible dans l'environnement fablab.",
+      "story": "En tant qu'ingénieure logicielle dévouée au nilab, je contribue à des projets innovants en concevant et développant des solutions logicielles qui allient technologie et applications concrètes. Mon rôle consiste à exploiter mon expertise full-stack pour créer des systèmes évolutifs, efficaces et centrés sur l'utilisateur, renforçant les offres du nilab. Passionnée par la fusion de la compétence technique et de la créativité, je collabore avec une équipe multidisciplinaire pour transformer des idées en réalités fonctionnelles, garantissant que chaque projet répond aux normes les plus élevées de qualité et d'innovation. Avec un solide bagage en développement et un engagement pour l'apprentissage continu, je m'épanouis en repoussant les limites du possible dans l'environnement nilab.",
+      "quote": "Le code est ma toile, le nilab est mon atelier. Ici, la créativité et la logique se rencontrent pour donner vie aux idées innovantes, une ligne de code à la fois."
+    },
+    "ali": {
+      "name": "Seydou Diallo",
+      "position": "Responsable de la robotique",
+      "bio": "En tant que responsable de la robotique, je mène la charge pour faire progresser nos projets robotiques, alliant expertise technique et vision novatrice. Mon rôle consiste à guider une équipe talentueuse dans la conception, le développement et la mise en œuvre de systèmes robotiques de pointe qui repoussent les limites de l'automatisation et de l'intégration de l'IA. Passionné par l'exploration des nouvelles technologies, je travaille pour garantir que chaque projet respecte non seulement des normes techniques rigoureuses, mais aussi qu'il ait un impact réel. Je m'engage à favoriser un environnement d'innovation, d'apprentissage continu et de collaboration, faisant du nilab un centre de recherche et d'application robotique révolutionnaire.",
+      "story": "Après des études en commerce...",
+      "quote": "Construire l'avenir, un robot à la fois—là où le code rencontre la mécanique, et l'innovation crée des possibilités."
+    },
+    "Christopher": {
+      "name": "Christopher Homan",
+      "position": "Chercheur principal",
+      "bio": "En tant que chercheur principal, je dirige des initiatives de recherche axées sur la recherche de solutions innovantes et l'avancement des connaissances dans mon domaine. Mon rôle comprend la supervision de la conception de projets, la gestion des équipes de recherche et l'obtention de financements pour mener des recherches innovantes de la conception à la publication. Dévoué à maintenir la rigueur scientifique et l'éthique, je collabore étroitement avec des partenaires interfonctionnels pour relever des défis complexes et produire des résultats significatifs. Soucieux du mentorat, je vise à encourager la croissance des jeunes chercheurs, la curiosité et la pensée critique. Mon objectif est de relier la théorie à l'application, en produisant des recherches percutantes qui contribuent tant aux avancées académiques que pratiques.",
+      "story": "En tant que chercheur principal, je dirige des initiatives de recherche axées sur la recherche de solutions innovantes et l'avancement des connaissances dans mon domaine. Mon rôle comprend la supervision de la conception de projets, la gestion des équipes de recherche et l'obtention de financements pour mener des recherches innovantes de la conception à la publication. Dévoué à maintenir la rigueur scientifique et l'éthique, je collabore étroitement avec des partenaires interfonctionnels pour relever des défis complexes et produire des résultats significatifs. Soucieux du mentorat, je vise à encourager la croissance des jeunes chercheurs, la curiosité et la pensée critique. Mon objectif est de relier la théorie à l'application, en produisant des recherches percutantes qui contribuent tant aux avancées académiques que pratiques.",
+      "quote": "Pousser les frontières de la connaissance—une question, une découverte, une percée à la fois."
+    }
   },
-  "maya": {
-    "name": "Maya",
-    "position": "Designer UI/UX",
-    "bio": "Maya est une designer créative avec un œil attentif aux détails...",
-    "story": "Le parcours de Maya dans le design...",
-    "quote": "Le design n'est pas seulement ce à quoi il ressemble..."
-  },
-  "ali": {
-    "name": "Ali",
-    "position": "Chef de Projet",
-    "bio": "Ali est un chef de projet doté d'un talent pour l'organisation et la stratégie...",
-    "story": "Après des études en gestion des affaires...",
-    "quote": "Une bonne gestion consiste à..."
-  }
-},
+
 "BlogPageHero": {
   "title": "Nos Outils && Innovations",
   "bio": "Innover localement, impacter mondialement."
