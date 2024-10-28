@@ -1,7 +1,7 @@
 // pages/team/[id].tsx
 'use client';
 import { useParams, useRouter } from 'next/navigation';
-import { OngoingProjects } from '../../data/OngoingProjects';
+import { OngoingProjects } from '../../data/OngoingProjectFar';
 import { OngoingProjectsFar } from '../../data/OngoingProjectFar';
 
 import { FaArrowLeft, FaDownload } from 'react-icons/fa';

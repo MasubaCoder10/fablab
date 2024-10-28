@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation';
 import Image from 'next/image';
 import { FaArrowRight } from 'react-icons/fa';
 import { OngoingProjectsFar } from '../data/OngoingProjectFar';
-import { OngoingProjects } from '../data/OngoingProjects'
+import { OngoingProjects } from '../data/OngoingProjectFar'
 import { useTranslations } from 'next-intl';
 import imgFajir from '../../../assets/images/Fajir.webp'
 
